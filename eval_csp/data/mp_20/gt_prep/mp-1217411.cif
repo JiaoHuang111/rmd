@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Th3U3P8
+_symmetry_space_group_name_H-M   C2
+_cell_length_a   11.88973800
+_cell_length_b   8.42249200
+_cell_length_c   8.41288549
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   134.67555251
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   5
+_chemical_formula_structural   Th3U3P8
+_chemical_formula_sum   'Th6 U6 P16'
+_cell_volume   599.08475385
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y, -z'
+  3  'x+1/2, y+1/2, z'
+  4  '-x+1/2, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  4  0.12675900  0.25219800  0.37757100  1.0
+  Th  Th1  2  0.00000000  0.62196400  0.50000000  1.0
+  U  U2  4  0.24980900  0.99819900  0.87330000  1.0
+  U  U3  2  0.00000000  0.87785500  0.00000000  1.0
+  P  P4  4  0.07226000  0.58200500  0.23162900  1.0
+  P  P5  4  0.07321550  0.92176550  0.40259700  1.0
+  P  P6  4  0.17056300  0.16967200  0.08512000  1.0
+  P  P7  4  0.18138600  0.32625100  0.76796600  1.0

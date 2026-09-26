@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CeHo4S7
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   13.03728000
+_cell_length_b   3.81515400
+_cell_length_c   11.60986321
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   104.80201470
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   CeHo4S7
+_chemical_formula_sum   'Ce2 Ho8 S14'
+_cell_volume   558.30212623
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  2  0.00000000  0.00000000  0.00000000  1.0
+  Ho  Ho1  4  0.11240300  0.00000000  0.42283500  1.0
+  Ho  Ho2  4  0.19964600  0.50000000  0.81113300  1.0
+  S  S3  4  0.04446700  0.00000000  0.77929800  1.0
+  S  S4  4  0.16502200  0.50000000  0.05495000  1.0
+  S  S5  4  0.23891400  0.50000000  0.35435400  1.0
+  S  S6  2  0.00000000  0.50000000  0.50000000  1.0

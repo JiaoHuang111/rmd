@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ZrSc2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   11.85676800
+_cell_length_b   3.27730800
+_cell_length_c   7.64783187
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   103.25989768
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   ZrSc2
+_chemical_formula_sum   'Zr4 Sc8'
+_cell_volume   289.25863140
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  4  0.02609900  0.50000000  0.80713700  1.0
+  Sc  Sc1  4  0.13318200  0.00000000  0.52615200  1.0
+  Sc  Sc2  4  0.19112900  0.00000000  0.13689100  1.0

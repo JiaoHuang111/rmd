@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Eu2ZnPtO6
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.53434100
+_cell_length_b   5.79662200
+_cell_length_c   9.57966510
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.14390515
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Eu2ZnPtO6
+_chemical_formula_sum   'Eu4 Zn2 Pt2 O12'
+_cell_volume   251.29851601
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  4  0.26871700  0.56286700  0.25280400  1.0
+  Zn  Zn1  2  0.50000000  0.00000000  0.50000000  1.0
+  Pt  Pt2  2  0.00000000  0.00000000  0.00000000  1.0
+  O  O3  4  0.14369000  0.53715200  0.74716500  1.0
+  O  O4  4  0.24372300  0.20710500  0.55565300  1.0
+  O  O5  4  0.34856900  0.69209200  0.54793400  1.0

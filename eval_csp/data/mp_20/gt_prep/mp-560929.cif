@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Na3CrF6
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.57048800
+_cell_length_b   5.80622600
+_cell_length_c   9.76482522
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.39873391
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Na3CrF6
+_chemical_formula_sum   'Na6 Cr2 F12'
+_cell_volume   260.59850283
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  4  0.27290500  0.05733700  0.75561900  1.0
+  Na  Na1  2  0.50000000  0.00000000  0.50000000  1.0
+  Cr  Cr2  2  0.00000000  0.00000000  0.00000000  1.0
+  F  F3  4  0.10703200  0.05739600  0.22542000  1.0
+  F  F4  4  0.24126400  0.72235300  0.07293600  1.0
+  F  F5  4  0.33777700  0.17864400  0.05260700  1.0

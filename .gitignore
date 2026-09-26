@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------------------
+# Training artefacts: logs, checkpoints, generated structures.
+# None of these are part of the release.
+# ---------------------------------------------------------------------------
+logs/
+lightning_logs/
+outputs/
+multirun/
+wandb/
+*.ckpt
+*.pt
+*.pth
+*.log
+debug_config.yaml
+csp_output/
+gen.fasta
+
+# ---------------------------------------------------------------------------
+# Benchmark outputs: candidates, postprocessed structures, metric JSONs.
+#
+# NOTE the negations below. eval_csp/data/ holds the benchmark PROMPTS and the
+# ground-truth structures, and the preparation scripts write candidates and
+# metrics next to them. Only the generated parts are ignored -- the shipped
+# ground truth (orig/, gt_prep/, *.pkl.gz, *.json) must stay tracked.
+# ---------------------------------------------------------------------------
+eval_csp/data/*/gen*/
+eval_csp/data/*/m20_*.json
+eval_csp/data/*/md20_*.json
+eval_csp/eval_summary.txt
+eval_csp/gen*.log
+!eval_csp/data/*/orig/
+!eval_csp/data/*/gt_prep/
+
+# ---------------------------------------------------------------------------
+# Python / tooling caches
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# Local machine configuration. Never commit real credentials; .env.example is
+# the tracked template.
+# ---------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+# ---------------------------------------------------------------------------
+# Protected paths -- shipped with the repository. Listed so that a future edit
+# to the rules above cannot silently drop the training data from the release.
+# ---------------------------------------------------------------------------
+!data-bin/
+!data-bin/**
+!eval_csp/prompts/
+!eval_csp/prompts/**
+!configs/
+!src/
+
+# ---------------------------------------------------------------------------
+# Oversized data files. These exceed GitHub's 100 MB per-file hard limit, so
+# they cannot be pushed; the pattern must stay AFTER the !data-bin/** negations
+# above, since later patterns win. Regenerate them with the preprocessing
+# scripts in src/ (see README).
+# ---------------------------------------------------------------------------
+data-bin/crystalmols/train.bin
+data-bin/crystalmols/val.bin

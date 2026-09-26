@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Yb3DySb3
+_symmetry_space_group_name_H-M   Cc
+_cell_length_a   9.41687200
+_cell_length_b   13.22483400
+_cell_length_c   8.17782606
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.05196483
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   9
+_chemical_formula_structural   Yb3DySb3
+_chemical_formula_sum   'Yb12 Dy4 Sb12'
+_cell_volume   833.72575246
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z+1/2'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  4  0.17998300  0.17906500  0.00476300  1.0
+  Yb  Yb1  4  0.39646900  0.24805100  0.64334800  1.0
+  Yb  Yb2  4  0.49573250  0.00001250  0.35156000  1.0
+  Dy  Dy3  4  0.42774900  0.42742100  0.00049200  1.0
+  Sb  Sb4  4  0.06719150  0.31058150  0.62889500  1.0
+  Sb  Sb5  4  0.17924250  0.06074150  0.37121000  1.0
+  Sb  Sb6  4  0.25363250  0.37984550  0.24973300  1.0

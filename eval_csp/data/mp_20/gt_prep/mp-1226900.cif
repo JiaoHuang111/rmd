@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ce3(MgRh2)2
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   3.91331600
+_cell_length_b   12.14182799
+_cell_length_c   7.80213999
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   Ce3(MgRh2)2
+_chemical_formula_sum   'Ce6 Mg4 Rh8'
+_cell_volume   370.71719752
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x, y+1/2, z+1/2'
+  6  '-x, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  4  0.00000000  0.17460050  0.78910550  1.0
+  Ce  Ce1  2  0.00000000  0.00000000  0.42320600  1.0
+  Mg  Mg2  4  0.50000000  0.12888450  0.12832550  1.0
+  Rh  Rh3  4  0.50000000  0.16805750  0.47602350  1.0
+  Rh  Rh4  2  0.00000000  0.00000000  0.02946700  1.0
+  Rh  Rh5  2  0.50000000  0.00000000  0.76031900  1.0

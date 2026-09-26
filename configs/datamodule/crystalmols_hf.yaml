@@ -1,0 +1,21 @@
+_target_: crystalmols_hf
+
+# Path configuration.
+# data_dir must contain train.bin, val.bin and meta.pkl, as produced by
+# CrystaLLM's tokenize_cifs.py.
+data_dir: ${paths.data_dir}
+
+# DataLoader parameters
+max_tokens: 40960          # crystal token sequences are long, hence the large cap
+max_len: 1024            # maximum token length of a single sample
+num_workers: 16            # number of DataLoader workers
+special_tokens:
+  pad_token: "[PAD]"
+  unk_token: "[UNK]"
+  bos_token: "[BOS]"
+  eos_token: "[EOS]"
+  mask_token: "[MASK]"
+
+# Tokenizer settings
+tokenizer: crystallm      # use the CrystaLLM tokenizer
+vocab_file: ${paths.data_dir}/meta.pkl  # vocabulary taken from meta.pkl

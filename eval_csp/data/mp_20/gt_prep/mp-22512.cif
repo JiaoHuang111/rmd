@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Sr2In2O5
+_symmetry_space_group_name_H-M   Ima2
+_cell_length_a   15.97600000
+_cell_length_b   6.14927800
+_cell_length_c   5.92475600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   46
+_chemical_formula_structural   Sr2In2O5
+_chemical_formula_sum   'Sr8 In8 O20'
+_cell_volume   582.05315635
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x+1/2, y, z'
+  4  'x+1/2, -y, z'
+  5  'x+1/2, y+1/2, z+1/2'
+  6  '-x+1/2, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  8  0.10749850  0.02573650  0.48339450  1.0
+  In  In1  4  0.00000000  0.00000000  0.99846300  1.0
+  In  In2  4  0.25000000  0.56380400  0.45798600  1.0
+  O  O3  8  0.01749750  0.74367350  0.24469550  1.0
+  O  O4  8  0.13903150  0.08168050  0.04630850  1.0
+  O  O5  4  0.25000000  0.61734600  0.10075300  1.0

@@ -1,0 +1,42 @@
+{
+ "mp-10009": {
+  "canon_cond": "data_Ga4Te4\n",
+  "official": "data_Ga4Te4\n",
+  "match": true,
+  "same_cond_n": 0,
+  "same_cond_lens": [],
+  "same_red_n": 1
+ },
+ "mp-1001": {
+  "canon_cond": "data_Ba2N4\n",
+  "official": "data_Ba4N8\n",
+  "match": false,
+  "same_cond_n": 0,
+  "same_cond_lens": [],
+  "same_red_n": 0
+ },
+ "mp-1001012": {
+  "canon_cond": "data_Sc4Zn2S8\n",
+  "official": "data_Sc16Zn8S32\n",
+  "match": false,
+  "same_cond_n": 0,
+  "same_cond_lens": [],
+  "same_red_n": 0
+ },
+ "mp-1001034": {
+  "canon_cond": "data_Mg2In4Se8\n",
+  "official": "data_Mg8In16Se32\n",
+  "match": false,
+  "same_cond_n": 0,
+  "same_cond_lens": [],
+  "same_red_n": 1
+ },
+ "mp-10014": {
+  "canon_cond": "data_Ta1S2\n",
+  "official": "data_Ta3S6\n",
+  "match": false,
+  "same_cond_n": 0,
+  "same_cond_lens": [],
+  "same_red_n": 5
+ }
+}

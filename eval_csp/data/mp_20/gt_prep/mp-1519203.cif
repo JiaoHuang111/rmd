@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_SrCeEuSbO6
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   5.79990178
+_cell_length_b   6.09872381
+_cell_length_c   8.40667144
+_cell_angle_alpha   90.10075509
+_cell_angle_beta   90.01432273
+_cell_angle_gamma   89.99660197
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   SrCeEuSbO6
+_chemical_formula_sum   'Sr2 Ce2 Eu2 Sb2 O12'
+_cell_volume   297.36030487
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.01525250  0.94286316  0.24666959  1.0
+  Ce  Ce1  1  0.00000000  0.50000000  0.00000000  1.0
+  Ce  Ce2  1  0.50000000  0.00000000  0.50000000  1.0
+  Eu  Eu3  2  0.48095219  0.43852104  0.24948447  1.0
+  Sb  Sb4  1  0.00000000  0.50000000  0.50000000  1.0
+  Sb  Sb5  1  0.50000000  0.00000000  0.00000000  1.0
+  O  O6  2  0.11383801  0.46636174  0.72873101  1.0
+  O  O7  2  0.18015963  0.22207732  0.44312049  1.0
+  O  O8  2  0.18865360  0.19729589  0.05718508  1.0
+  O  O9  2  0.28554260  0.68035176  0.44393637  1.0
+  O  O10  2  0.31763989  0.68868366  0.06262493  1.0
+  O  O11  2  0.39153718  0.95289575  0.74593220  1.0

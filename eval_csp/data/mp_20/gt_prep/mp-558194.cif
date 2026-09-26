@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaLaMgWO6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   7.88395600
+_cell_length_b   7.96910200
+_cell_length_c   7.95843320
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.06551437
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   NaLaMgWO6
+_chemical_formula_sum   'Na4 La4 Mg4 W4 O24'
+_cell_volume   500.01250852
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  4  0.00000000  0.24693300  0.50000000  1.0
+  La  La1  4  0.00000000  0.24619900  0.00000000  1.0
+  Mg  Mg2  4  0.24810600  0.50000000  0.74383000  1.0
+  W  W3  4  0.24840400  0.00000000  0.73810800  1.0
+  O  O4  8  0.24861550  0.25778950  0.22887300  1.0
+  O  O5  4  0.00882700  0.00000000  0.70650000  1.0
+  O  O6  4  0.00927000  0.50000000  0.18799700  1.0
+  O  O7  4  0.19317200  0.00000000  0.99420300  1.0
+  O  O8  4  0.19770500  0.50000000  0.48973400  1.0

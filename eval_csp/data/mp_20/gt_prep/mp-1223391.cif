@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KNiSbO4
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   12.62803380
+_cell_length_b   3.14853900
+_cell_length_c   5.28110670
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   95.20630822
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   KNiSbO4
+_chemical_formula_sum   'K2 Ni2 Sb2 O8'
+_cell_volume   209.10977256
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  2  0.25237800  0.00000000  0.41827100  1.0
+  Ni  Ni1  2  0.00308150  0.50000000  0.50226700  1.0
+  Sb  Sb2  2  0.49908850  0.50000000  0.99717000  1.0
+  O  O3  2  0.08106300  0.00000000  0.69977700  1.0
+  O  O4  2  0.08661600  0.50000000  0.17645300  1.0
+  O  O5  2  0.41387800  0.00000000  0.82325400  1.0
+  O  O6  2  0.41936500  0.50000000  0.30085800  1.0

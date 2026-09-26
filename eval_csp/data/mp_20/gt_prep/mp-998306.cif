@@ -1,0 +1,61 @@
+# generated using pymatgen
+data_CsPdBr3
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   5.33332003
+_cell_length_b   7.54225425
+_cell_length_c   7.53952643
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   CsPdBr3
+_chemical_formula_sum   'Cs2 Pd2 Br6'
+_cell_volume   303.27937821
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z+893/907'
+  3  '-x, z+296/583, y+287/583'
+  4  'x, -z+287/583, -y+287/583'
+  5  'x, -y, -z+893/907'
+  6  '-x, y, z'
+  7  '-x, -z+287/583, -y+287/583'
+  8  'x, z+296/583, y+287/583'
+  9  'x, z+296/583, -y+287/583'
+  10  '-x, -z+287/583, y+287/583'
+  11  '-x, y, -z+893/907'
+  12  'x, -y, z'
+  13  '-x, -y, z'
+  14  'x, y, -z+893/907'
+  15  'x, -z+287/583, y+287/583'
+  16  '-x, z+296/583, -y+287/583'
+  17  'x, y+1/2, z+1/2'
+  18  '-x, -y+1/2, -z+361/745'
+  19  '-x, z+7/907, y+900/907'
+  20  'x, -z+900/907, -y+900/907'
+  21  'x, -y+1/2, -z+361/745'
+  22  '-x, y+1/2, z+1/2'
+  23  '-x, -z+900/907, -y+900/907'
+  24  'x, z+7/907, y+900/907'
+  25  'x, z+7/907, -y+900/907'
+  26  '-x, -z+900/907, y+900/907'
+  27  '-x, y+1/2, -z+361/745'
+  28  'x, -y+1/2, z+1/2'
+  29  '-x, -y+1/2, z+1/2'
+  30  'x, y+1/2, -z+361/745'
+  31  'x, -z+900/907, y+900/907'
+  32  '-x, z+7/907, -y+900/907'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  2  0.00000000  0.00000000  0.99228200  1.0
+  Pd  Pd1  2  0.50000000  0.00000000  0.48576700  1.0
+  Br  Br2  4  0.50000000  0.24623250  0.73885150  1.0
+  Br  Br3  2  0.00000000  0.00000000  0.48815550  1.0

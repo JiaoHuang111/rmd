@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Na2BrClO6
+_symmetry_space_group_name_H-M   P2_1
+_cell_length_a   6.74877700
+_cell_length_b   6.74405700
+_cell_length_c   6.74904309
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   91.05730429
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   4
+_chemical_formula_structural   Na2BrClO6
+_chemical_formula_sum   'Na4 Br2 Cl2 O12'
+_cell_volume   307.12457035
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  2  0.07492700  0.42606300  0.67284100  1.0
+  Na  Na1  2  0.42707800  0.57368800  0.17989500  1.0
+  Br  Br2  2  0.09202800  0.90899100  0.84234500  1.0
+  Cl  Cl3  2  0.41763200  0.08355600  0.33211100  1.0
+  O  O4  2  0.00821300  0.28772900  0.35354500  1.0
+  O  O5  2  0.10296600  0.50982600  0.03970100  1.0
+  O  O6  2  0.21240700  0.10416800  0.74534100  1.0
+  O  O7  2  0.30367800  0.91046700  0.24442400  1.0
+  O  O8  2  0.40956800  0.49874200  0.55157300  1.0
+  O  O9  2  0.49764300  0.69677000  0.84015700  1.0

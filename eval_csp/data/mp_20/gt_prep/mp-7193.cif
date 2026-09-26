@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Lu2Si2O7
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   6.76827200
+_cell_length_b   8.87015399
+_cell_length_c   4.76268296
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   102.24273714
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Lu2Si2O7
+_chemical_formula_sum   'Lu4 Si4 O14'
+_cell_volume   279.42796468
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  4  0.00000000  0.30857400  0.00000000  1.0
+  Si  Si1  4  0.22059400  0.00000000  0.40984000  1.0
+  O  O2  8  0.23573150  0.15243750  0.21735600  1.0
+  O  O3  4  0.11390200  0.50000000  0.28360500  1.0
+  O  O4  2  0.00000000  0.00000000  0.50000000  1.0

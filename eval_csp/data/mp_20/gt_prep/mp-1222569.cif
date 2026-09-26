@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Lu3Ga10Ni
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   15.62331401
+_cell_length_b   4.16072800
+_cell_length_c   9.86519212
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   127.25971578
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   Lu3Ga10Ni
+_chemical_formula_sum   'Lu6 Ga20 Ni2'
+_cell_volume   510.39473366
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  2  0.00308400  0.00000000  0.00807200  1.0
+  Lu  Lu1  2  0.18218200  0.50000000  0.67187600  1.0
+  Lu  Lu2  2  0.31533700  0.00000000  0.31363800  1.0
+  Ga  Ga3  2  0.00401200  0.50000000  0.29111100  1.0
+  Ga  Ga4  2  0.00455900  0.50000000  0.71116200  1.0
+  Ga  Ga5  2  0.15086600  0.00000000  0.87967800  1.0
+  Ga  Ga6  2  0.15535100  0.00000000  0.41326600  1.0
+  Ga  Ga7  2  0.15632800  0.50000000  0.05329400  1.0
+  Ga  Ga8  2  0.33470800  0.50000000  0.55350400  1.0
+  Ga  Ga9  2  0.34384500  0.00000000  0.96841600  1.0
+  Ga  Ga10  2  0.34625400  0.00000000  0.72294400  1.0
+  Ga  Ga11  2  0.34839600  0.50000000  0.12439400  1.0
+  Ga  Ga12  2  0.49980100  0.50000000  0.49910000  1.0
+  Ni  Ni13  2  0.15527700  0.50000000  0.28954600  1.0

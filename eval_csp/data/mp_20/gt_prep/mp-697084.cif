@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_HPbIO
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   7.94516100
+_cell_length_b   4.25988600
+_cell_length_c   10.64273300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   HPbIO
+_chemical_formula_sum   'H4 Pb4 I4 O4'
+_cell_volume   360.20840809
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  4  0.18885700  0.75000000  0.10941600  1.0
+  Pb  Pb1  4  0.18178900  0.25000000  0.91909300  1.0
+  I  I2  4  0.04721500  0.75000000  0.67906100  1.0
+  O  O3  4  0.11681300  0.75000000  0.03504500  1.0

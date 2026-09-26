@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Pr4Mg7Ge6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   16.75954000
+_cell_length_b   4.45390800
+_cell_length_c   12.61623392
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   122.44149486
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Pr4Mg7Ge6
+_chemical_formula_sum   'Pr8 Mg14 Ge12'
+_cell_volume   794.77547737
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  4  0.12970600  0.50000000  0.83961500  1.0
+  Pr  Pr1  4  0.23362700  0.50000000  0.61319500  1.0
+  Mg  Mg2  4  0.03954000  0.00000000  0.13855300  1.0
+  Mg  Mg3  4  0.06188400  0.00000000  0.39604900  1.0
+  Mg  Mg4  4  0.18958200  0.50000000  0.15382800  1.0
+  Mg  Mg5  2  0.00000000  0.50000000  0.50000000  1.0
+  Ge  Ge6  4  0.10858000  0.50000000  0.31121500  1.0
+  Ge  Ge7  4  0.12009600  0.00000000  0.65127000  1.0
+  Ge  Ge8  4  0.14946100  0.00000000  0.02455100  1.0

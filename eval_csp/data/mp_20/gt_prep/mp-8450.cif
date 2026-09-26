@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2Li2GeO4
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   5.68187900
+_cell_length_b   5.82424204
+_cell_length_c   8.97973777
+_cell_angle_alpha   83.40305725
+_cell_angle_beta   74.41696800
+_cell_angle_gamma   85.10217054
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Rb2Li2GeO4
+_chemical_formula_sum   'Rb4 Li4 Ge2 O8'
+_cell_volume   283.88302624
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  2  0.21165800  0.27325900  0.98193200  1.0
+  Rb  Rb1  2  0.46957000  0.85007200  0.72889500  1.0
+  Li  Li2  2  0.06988800  0.81381200  0.56057700  1.0
+  Li  Li3  2  0.30442600  0.40881100  0.58076600  1.0
+  Ge  Ge4  2  0.14484000  0.68662500  0.27629500  1.0
+  O  O5  2  0.01131900  0.56864300  0.72350600  1.0
+  O  O6  2  0.09853700  0.13080700  0.61003800  1.0
+  O  O7  2  0.27296900  0.79975200  0.08411600  1.0
+  O  O8  2  0.36449400  0.64042200  0.39131100  1.0

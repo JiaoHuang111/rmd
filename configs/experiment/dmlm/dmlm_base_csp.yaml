@@ -1,0 +1,123 @@
+# @package _global_
+
+# Crystal Structure Prediction (CSP): composition-conditioned DMLM training.
+#
+# The only differences from dmlm_base.yaml:
+#   datamodule.conditioning: composition
+#     -> the dataloader extracts the leading "data_<formula>\n" composition span
+#        of every sample and supplies a per-sample condition_mask [B, L] in the
+#        batch.
+#   model.debug_first_batch: true
+#     -> the first training batch prints, once, the key diagnostics of the
+#        composition span / corruption / loss mask (nothing is printed after).
+#
+# Run (from the project root):
+#   python train.py experiment=dmlm/dmlm_base_csp ...
+#
+# Note: the model architecture and the diffusion math are identical to
+#       unconditional generation (dmlm_base). The only difference is that the
+#       composition prefix stays visible during corruption and contributes no
+#       loss.
+#
+# val_check_interval: 250 -> 2500 (a problem exposed by full-scale training):
+#   val_check_interval counts micro-batches. At batch=8 / acc=40, 250 means a
+#   full validation pass every ~6.25 optimizer steps (9047 rows / batch 8 ~
+#   1131 micro-batches, with a single measured validation pass taking 10+
+#   minutes), so validation would consume ~85% of wall clock. 2500 validates
+#   every ~62.5 optimizer steps, matching the cadence of the two earlier
+#   full-scale runs (batch16/acc4 and batch32/acc8). The training math
+#   (batch / acc / lr / max_steps / optimizer / scheduler) is unchanged.
+
+defaults:
+  - /datamodule: crystalmols_hf
+  - /callbacks: lm
+  - /trainer: ddp_bf16
+
+# Experiment identity
+project: "DMLM_150m_csp"
+name: "dmlm_150m_csp"
+
+# ======================
+# Data Module (Crystal)
+# ======================
+datamodule:
+  max_tokens: 40960     # crystal sequences are usually longer than proteins
+  max_len: 2048         # allow longer CIF token sequences
+  tokenizer: crystallm   # use CrystaLLM tokenizer
+  format: cif_tokens     # data format after tokenization
+  vocab_size: 375      # must match crystallm/_tokenizer.py
+  batch_size: 8
+  conditioning: composition   # CSP: build the composition condition_mask
+
+# ======================
+# Model Configuration
+# ======================
+model:
+  _target_: dmlm
+  num_diffusion_timesteps: 500
+  gradient_ckpt: false
+  rdm_couple: false
+  debug_first_batch: true   # print CSP diagnostics once, on the first batch
+  lora:
+    enable: false
+    lora_rank: 16
+    lora_dropout: 0.1
+    lora_target_module: (esm.encoder.layer.[0-9]*.attention.(self.query|self.key|self.value|output.dense).*|esm.encoder.layer.[0-9]*.(intermediate|output).dense.*)
+    modules_to_save: lm_head,esm.embeddings
+  net:
+    arch_type: esm_crystal
+    # name: facebook/esm2_t33_650M_UR50D
+    name: facebook/esm2_t30_150M_UR50D
+    dropout: 0.1
+
+# ======================
+# Task Configuration
+# ======================
+task:
+  _target_: lm/dmlm
+  learning:
+    noise: random_mask # enable cmlm training with uniform random masking
+    watch_t1_t2_loss: false
+    cal_constant_loss: false
+    weight: linear
+  criterion:
+    _target_: byprot.modules.cross_entropy.RDMCrossEntropyLoss
+    label_smoothing: 0.0
+    ignore_index: 371
+  optimizer:
+    type: adamw
+    _partial_: true
+    lr: ${train.lr}
+    betas:
+      - 0.9
+      - 0.99
+    weight_decay: 0.01 # 0.0001
+  lr_scheduler:
+    type: polynomial
+    warmup_steps: 100
+    total_steps: ${trainer.max_steps}
+    lr: ${train.lr}
+    lr_end: 1e-4
+    warmup_init_lr: 1e-07
+    power: 1
+
+train:
+  seed: 42
+  lr: 1e-3
+  monitor: "val/loss"
+  mode: "min"
+  patience: 1000
+
+trainer:
+  min_epochs: 100
+  max_epochs: 1500
+  gradient_clip_val: 1.0
+  val_check_interval: 2500
+  num_sanity_val_steps: 0
+  reload_dataloaders_every_n_epochs: 0
+  use_distributed_sampler: false
+  max_steps: 45_000
+  accumulate_grad_batches: 40
+  check_val_every_n_epoch: null
+  enable_progress_bar: false
+  num_nodes: 1

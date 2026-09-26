@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SmGeRh
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   7.05778500
+_cell_length_b   4.44310000
+_cell_length_c   7.56353300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   SmGeRh
+_chemical_formula_sum   'Sm4 Ge4 Rh4'
+_cell_volume   237.18063006
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  4  0.01515100  0.75000000  0.29885100  1.0
+  Ge  Ge1  4  0.18512000  0.75000000  0.91683300  1.0
+  Rh  Rh2  4  0.19999600  0.25000000  0.08853900  1.0

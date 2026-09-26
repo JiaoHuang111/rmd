@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ce(HoS2)3
+_symmetry_space_group_name_H-M   P2_1/m
+_cell_length_a   11.08754000
+_cell_length_b   3.97897500
+_cell_length_c   11.32079426
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   108.84275673
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   11
+_chemical_formula_structural   Ce(HoS2)3
+_chemical_formula_sum   'Ce2 Ho6 S12'
+_cell_volume   472.67424950
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z'
+  4  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  2  0.45043700  0.25000000  0.80596800  1.0
+  Ho  Ho1  2  0.05721200  0.25000000  0.66666667  1.0
+  Ho  Ho2  2  0.17983400  0.75000000  0.00029700  1.0
+  Ho  Ho3  2  0.33981700  0.25000000  0.41375200  1.0
+  S  S4  2  0.02096200  0.25000000  0.88811000  1.0
+  S  S5  2  0.10707500  0.25000000  0.44269400  1.0
+  S  S6  2  0.23366800  0.75000000  0.77021500  1.0
+  S  S7  2  0.30424700  0.75000000  0.25010900  1.0
+  S  S8  2  0.38229900  0.25000000  0.03694600  1.0
+  S  S9  2  0.41858500  0.75000000  0.59539600  1.0

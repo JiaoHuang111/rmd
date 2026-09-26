@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_U3Al2Ge3
+_symmetry_space_group_name_H-M   I4cm
+_cell_length_a   7.72789600
+_cell_length_b   7.72789600
+_cell_length_c   11.11532000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   108
+_chemical_formula_structural   U3Al2Ge3
+_chemical_formula_sum   'U12 Al8 Ge12'
+_cell_volume   663.81109653
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y, x, z'
+  3  '-x, -y, z'
+  4  'y, -x, z'
+  5  '-x, y, z+1/2'
+  6  'y, x, z+1/2'
+  7  'x, -y, z+1/2'
+  8  '-y, -x, z+1/2'
+  9  'x+1/2, y+1/2, z+1/2'
+  10  '-y+1/2, x+1/2, z+1/2'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'y+1/2, -x+1/2, z+1/2'
+  13  '-x+1/2, y+1/2, z'
+  14  'y+1/2, x+1/2, z'
+  15  'x+1/2, -y+1/2, z'
+  16  '-y+1/2, -x+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  8  0.15649200  0.34350800  0.02029100  1.0
+  U  U1  4  0.00000000  0.00000000  0.24653800  1.0
+  Al  Al2  8  0.13686850  0.36313150  0.33115150  1.0
+  Ge  Ge3  8  0.15209500  0.34790500  0.70736200  1.0
+  Ge  Ge4  4  0.00000000  0.00000000  0.49526400  1.0

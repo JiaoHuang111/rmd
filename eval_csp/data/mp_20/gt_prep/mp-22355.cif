@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sr2InSbO6
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.80304200
+_cell_length_b   5.83501200
+_cell_length_c   10.06315564
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.32505427
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Sr2InSbO6
+_chemical_formula_sum   'Sr4 In2 Sb2 O12'
+_cell_volume   278.01006132
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.25691400  0.53272500  0.75008600  1.0
+  In  In1  2  0.50000000  0.00000000  0.00000000  1.0
+  Sb  Sb2  2  0.00000000  0.00000000  0.50000000  1.0
+  O  O3  4  0.16452300  0.52004600  0.23945000  1.0
+  O  O4  4  0.24210200  0.22360800  0.04088400  1.0
+  O  O5  4  0.31444400  0.70368200  0.03827600  1.0

@@ -1,0 +1,36 @@
+# Runtime dependencies for training, validation and generation.
+#
+# Versions are the ones actually installed in the environment this release was
+# prepared and tested against (Python 3.9, CUDA 11.8 wheels). They are pinned
+# because the upstream stack (Hydra 1.2 + Lightning 2.2 + transformers 4.39) has
+# narrow compatibility windows.
+
+# --------- pytorch / lightning --------- #
+torch==2.2.0
+pytorch-lightning==2.2.0
+lightning==2.2.0
+torchmetrics==1.8.2
+
+# --------- model backbone --------- #
+transformers==4.39.2
+peft==0.11.1                 # LoRA wrappers; unused when model.lora.enable=false (the default)
+
+# --------- configuration --------- #
+hydra-core==1.2.0
+hydra-colorlog==1.2.0        # required: configs/hydra/default.yaml routes logging through colorlog
+omegaconf==2.3.0
+
+# --------- numerics / utility --------- #
+numpy==1.26.4
+tqdm==4.67.1
+rich==14.2.0                 # progress bars in byprot.utils.callbacks
+packaging==24.2
+typing_extensions==4.15.0
+python-dotenv==1.2.1        # optional: lets train.py / test.py read a .env file
+
+# --------- logging backend --------- #
+tensorboard==2.20.0          # only needed when a TensorBoardLogger is configured
+
+# --------- optional --------- #
+# deepspeed==0.14.4          # only for optimizer.type=fusedadam; imported inside a
+#                            # try/except in byprot/utils/optim.py and otherwise unused

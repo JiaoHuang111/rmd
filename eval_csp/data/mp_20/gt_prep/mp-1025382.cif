@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Th2Fe2Si2C
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   10.90521399
+_cell_length_b   3.99428000
+_cell_length_c   7.05657761
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   130.00080923
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Th2Fe2Si2C
+_chemical_formula_sum   'Th4 Fe4 Si4 C2'
+_cell_volume   235.45918679
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  4  0.05926500  0.50000000  0.29834800  1.0
+  Fe  Fe1  4  0.19392400  0.00000000  0.07713500  1.0
+  Si  Si2  4  0.17207900  0.00000000  0.72481000  1.0
+  C  C3  2  0.00000000  0.00000000  0.00000000  1.0

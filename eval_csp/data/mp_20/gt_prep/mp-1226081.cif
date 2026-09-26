@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Cr12As4C3N
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   10.16774000
+_cell_length_b   3.02029000
+_cell_length_c   14.85915796
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.25655474
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Cr12As4C3N
+_chemical_formula_sum   'Cr24 As8 C6 N2'
+_cell_volume   456.31308485
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  4  0.03981900  0.50000000  0.37651300  1.0
+  Cr  Cr1  4  0.04010200  0.50000000  0.87474300  1.0
+  Cr  Cr2  4  0.12110500  0.00000000  0.52411900  1.0
+  Cr  Cr3  4  0.12279600  0.00000000  0.02545800  1.0
+  Cr  Cr4  4  0.12283300  0.00000000  0.22526900  1.0
+  Cr  Cr5  4  0.12298200  0.00000000  0.72455900  1.0
+  As  As6  4  0.23967600  0.00000000  0.87489800  1.0
+  As  As7  4  0.24054200  0.00000000  0.37522800  1.0
+  C  C8  4  0.00009500  0.50000000  0.25050800  1.0
+  C  C9  2  0.00000000  0.50000000  0.00000000  1.0
+  N  N10  2  0.00000000  0.50000000  0.50000000  1.0

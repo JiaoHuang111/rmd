@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_SrCaMnGaO5
+_symmetry_space_group_name_H-M   C2
+_cell_length_a   16.45085051
+_cell_length_b   5.45568823
+_cell_length_c   5.67301705
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   109.73908812
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   5
+_chemical_formula_structural   SrCaMnGaO5
+_chemical_formula_sum   'Sr4 Ca4 Mn4 Ga4 O20'
+_cell_volume   479.23941295
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y, -z'
+  3  'x+1/2, y+1/2, z'
+  4  '-x+1/2, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.11453400  0.00290400  0.59266450  1.0
+  Ca  Ca1  4  0.10635900  0.51256400  0.13291250  1.0
+  Mn  Mn2  2  0.00000000  0.49768550  0.50000000  1.0
+  Mn  Mn3  2  0.00000000  0.99800100  0.00000000  1.0
+  Ga  Ga4  4  0.24963900  0.03715100  0.17920350  1.0
+  O  O5  4  0.00940900  0.25050200  0.77021450  1.0
+  O  O6  4  0.01030950  0.74813750  0.76412650  1.0
+  O  O7  4  0.14309850  0.94961950  0.19146550  1.0
+  O  O8  4  0.14602100  0.48379300  0.56989250  1.0
+  O  O9  4  0.23982800  0.38330500  0.11148150  1.0

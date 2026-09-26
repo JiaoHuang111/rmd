@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaPr(FeO3)2
+_symmetry_space_group_name_H-M   Pmn2_1
+_cell_length_a   7.76342200
+_cell_length_b   5.54056400
+_cell_length_c   5.47764600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   31
+_chemical_formula_structural   CaPr(FeO3)2
+_chemical_formula_sum   'Ca2 Pr2 Fe4 O12'
+_cell_volume   235.61402141
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+1/2, -y, z+1/2'
+  3  '-x, y, z'
+  4  'x+1/2, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  2  0.00000000  0.20829500  0.49112100  1.0
+  Pr  Pr1  2  0.00000000  0.70899500  0.00987100  1.0
+  Fe  Fe2  4  0.24967200  0.24794000  0.00050100  1.0
+  O  O3  4  0.20667200  0.46283100  0.28632200  1.0
+  O  O4  4  0.20918600  0.96298900  0.21406300  1.0
+  O  O5  2  0.00000000  0.26823300  0.91967100  1.0
+  O  O6  2  0.00000000  0.76928800  0.57757600  1.0

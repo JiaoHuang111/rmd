@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Mn4FeC2
+_symmetry_space_group_name_H-M   C2
+_cell_length_a   11.58983720
+_cell_length_b   4.48907000
+_cell_length_c   5.00345238
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   97.36852902
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   5
+_chemical_formula_structural   Mn4FeC2
+_chemical_formula_sum   'Mn16 Fe4 C8'
+_cell_volume   258.16780546
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y, -z'
+  3  'x+1/2, y+1/2, z'
+  4  '-x+1/2, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  4  0.09722400  0.08517100  0.66498400  1.0
+  Mn  Mn1  4  0.09887500  0.90907500  0.17021800  1.0
+  Mn  Mn2  4  0.21783050  0.58724850  0.56055800  1.0
+  Mn  Mn3  2  0.00000000  0.42555800  0.00000000  1.0
+  Mn  Mn4  2  0.00000000  0.57182200  0.50000000  1.0
+  Fe  Fe5  4  0.21681450  0.42033450  0.06139400  1.0
+  C  C6  4  0.11331800  0.68384200  0.83030200  1.0
+  C  C7  4  0.11451950  0.31564050  0.32841300  1.0

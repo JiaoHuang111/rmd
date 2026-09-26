@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_ZrVCo
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   8.05905300
+_cell_length_b   5.11037673
+_cell_length_c   8.84596862
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   ZrVCo
+_chemical_formula_sum   'Zr8 V8 Co8'
+_cell_volume   364.31942132
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x, y+1/2, z+1/2'
+  6  '-x, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  4  0.19666200  0.00000000  0.33311100  1.0
+  Zr  Zr1  4  0.32195300  0.00000000  0.66412300  1.0
+  V  V2  4  0.00000000  0.24829750  0.58905350  1.0
+  V  V3  4  0.26218500  0.00000000  0.99650800  1.0
+  Co  Co4  4  0.50000000  0.24611850  0.41442250  1.0
+  Co  Co5  2  0.00000000  0.00000000  0.83368750  1.0
+  Co  Co6  2  0.50000000  0.00000000  0.17194650  1.0

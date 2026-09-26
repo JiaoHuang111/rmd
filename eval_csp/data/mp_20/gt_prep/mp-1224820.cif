@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_GaAgSeS
+_symmetry_space_group_name_H-M   Cc
+_cell_length_a   8.39344200
+_cell_length_b   8.39440800
+_cell_length_c   6.81149103
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   127.25396738
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   9
+_chemical_formula_structural   GaAgSeS
+_chemical_formula_sum   'Ga4 Ag4 Se4 S4'
+_cell_volume   382.00025076
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z+1/2'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  4  0.36976000  0.11722700  0.00028600  1.0
+  Ag  Ag1  4  0.38390400  0.36779500  0.49962600  1.0
+  Se  Se2  4  0.23366300  0.35882600  0.75049800  1.0
+  S  S3  4  0.26767300  0.10618400  0.24959000  1.0

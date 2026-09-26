@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ho3TmMn8
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   8.76930690
+_cell_length_b   5.34553300
+_cell_length_c   8.38938666
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   93.91670937
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   Ho3TmMn8
+_chemical_formula_sum   'Ho6 Tm2 Mn16'
+_cell_volume   392.34757387
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  2  0.16632150  0.50000000  0.93654700  1.0
+  Ho  Ho1  2  0.33063850  0.00000000  0.43900400  1.0
+  Ho  Ho2  2  0.33387350  0.00000000  0.06299700  1.0
+  Tm  Tm3  2  0.16912300  0.50000000  0.56137600  1.0
+  Mn  Mn4  4  0.08510850  0.24368250  0.24513200  1.0
+  Mn  Mn5  4  0.41498200  0.25676800  0.75461400  1.0
+  Mn  Mn6  2  0.00011700  0.00000000  0.00003400  1.0
+  Mn  Mn7  2  0.16811300  0.00000000  0.74414700  1.0
+  Mn  Mn8  2  0.33190350  0.50000000  0.25610300  1.0
+  Mn  Mn9  2  0.49972400  0.50000000  0.50029800  1.0

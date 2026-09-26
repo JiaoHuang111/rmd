@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_NaNbS6
+_symmetry_space_group_name_H-M   Cc
+_cell_length_a   7.57091000
+_cell_length_b   12.99255599
+_cell_length_c   7.29053720
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   96.95890782
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   9
+_chemical_formula_structural   NaNbS6
+_chemical_formula_sum   'Na4 Nb4 S24'
+_cell_volume   711.85419925
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z+1/2'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  4  0.49959150  0.16882950  0.00043700  1.0
+  Nb  Nb1  4  0.00430200  0.01346500  0.75906600  1.0
+  S  S2  4  0.09938650  0.13673050  0.02314600  1.0
+  S  S3  4  0.15652500  0.10827200  0.51561000  1.0
+  S  S4  4  0.25421700  0.47310900  0.97565800  1.0
+  S  S5  4  0.30794950  0.36085050  0.79140400  1.0
+  S  S6  4  0.33103700  0.02799800  0.70450400  1.0
+  S  S7  4  0.39573150  0.30747750  0.33279500  1.0

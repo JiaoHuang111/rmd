@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Nd5AgS8
+_symmetry_space_group_name_H-M   I-4
+_cell_length_a   8.55870000
+_cell_length_b   8.55870000
+_cell_length_c   8.63676000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   82
+_chemical_formula_structural   Nd5AgS8
+_chemical_formula_sum   'Nd10 Ag2 S16'
+_cell_volume   632.65429148
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y, -x, -z'
+  3  '-x, -y, z'
+  4  '-y, x, -z'
+  5  'x+1/2, y+1/2, z+1/2'
+  6  'y+1/2, -x+1/2, -z+1/2'
+  7  '-x+1/2, -y+1/2, z+1/2'
+  8  '-y+1/2, x+1/2, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  8  0.13339450  0.74837550  0.63111850  1.0
+  Nd  Nd1  2  0.00000000  0.50000000  0.25000000  1.0
+  Ag  Ag2  2  0.00000000  0.00000000  0.00000000  1.0
+  S  S3  8  0.07017250  0.67885350  0.95256050  1.0
+  S  S4  8  0.07648000  0.81714600  0.31509800  1.0

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ce4Mg7Ge6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   16.86939800
+_cell_length_b   4.50442600
+_cell_length_c   12.74321957
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   122.77891858
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Ce4Mg7Ge6
+_chemical_formula_sum   'Ce8 Mg14 Ge12'
+_cell_volume   814.12909855
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  4  0.12783800  0.50000000  0.83548800  1.0
+  Ce  Ce1  4  0.23210500  0.50000000  0.60926900  1.0
+  Mg  Mg2  4  0.03921700  0.00000000  0.13878600  1.0
+  Mg  Mg3  4  0.06288700  0.00000000  0.39676900  1.0
+  Mg  Mg4  4  0.18918300  0.50000000  0.15386700  1.0
+  Mg  Mg5  2  0.00000000  0.50000000  0.50000000  1.0
+  Ge  Ge6  4  0.10963400  0.50000000  0.31004700  1.0
+  Ge  Ge7  4  0.12199400  0.00000000  0.65527900  1.0
+  Ge  Ge8  4  0.15154200  0.00000000  0.02183100  1.0

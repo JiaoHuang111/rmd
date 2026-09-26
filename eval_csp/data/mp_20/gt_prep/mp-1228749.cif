@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_AsRhO4
+_symmetry_space_group_name_H-M   Cmmm
+_cell_length_a   6.33259000
+_cell_length_b   6.49182200
+_cell_length_c   3.05491500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   65
+_chemical_formula_structural   AsRhO4
+_chemical_formula_sum   'As2 Rh2 O8'
+_cell_volume   125.58769934
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z'
+  4  'x, y, -z'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z'
+  8  'x, -y, z'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z'
+  12  'x+1/2, y+1/2, -z'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z'
+  16  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  2  0.00000000  0.00000000  0.00000000  1.0
+  Rh  Rh1  2  0.00000000  0.50000000  0.50000000  1.0
+  O  O2  4  0.00000000  0.18480200  0.50000000  1.0
+  O  O3  4  0.20833200  0.50000000  0.00000000  1.0

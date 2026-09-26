@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_MgIn2Ga2CuO8
+_symmetry_space_group_name_H-M   Pm
+_cell_length_a   5.89435100
+_cell_length_b   3.37064400
+_cell_length_c   8.68390393
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   103.34746429
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   6
+_chemical_formula_structural   MgIn2Ga2CuO8
+_chemical_formula_sum   'Mg1 In2 Ga2 Cu1 O8'
+_cell_volume   167.86933026
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.71582900  0.50000000  0.64252300  1.0
+  In  In1  1  0.50131500  0.50000000  0.00175500  1.0
+  In  In2  1  0.99917600  0.00000000  0.00102900  1.0
+  Ga  Ga3  1  0.20550300  0.00000000  0.63770500  1.0
+  Ga  Ga4  1  0.78860700  0.00000000  0.35810300  1.0
+  Cu  Cu5  1  0.28651100  0.50000000  0.35723200  1.0
+  O  O6  1  0.11730100  0.00000000  0.39011800  1.0
+  O  O7  1  0.21141600  0.50000000  0.12379800  1.0
+  O  O8  1  0.29238400  0.00000000  0.86892200  1.0
+  O  O9  1  0.36017500  0.50000000  0.60978500  1.0
+  O  O10  1  0.64565500  0.50000000  0.38620400  1.0
+  O  O11  1  0.70667800  0.00000000  0.12909100  1.0
+  O  O12  1  0.78984100  0.50000000  0.88043000  1.0
+  O  O13  1  0.87961000  0.00000000  0.61330600  1.0

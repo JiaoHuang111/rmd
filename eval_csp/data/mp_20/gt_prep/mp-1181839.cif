@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Cs4Sr(SnSe3)3
+_symmetry_space_group_name_H-M   R3
+_cell_length_a   15.00724540
+_cell_length_b   15.00724540
+_cell_length_c   9.95821163
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   146
+_chemical_formula_structural   Cs4Sr(SnSe3)3
+_chemical_formula_sum   'Cs12 Sr3 Sn9 Se27'
+_cell_volume   1942.28945257
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y, x-y, z'
+  3  '-x+y, -x, z'
+  4  'x+2/3, y+1/3, z+1/3'
+  5  '-y+2/3, x-y+1/3, z+1/3'
+  6  '-x+y+2/3, -x+1/3, z+1/3'
+  7  'x+1/3, y+2/3, z+2/3'
+  8  '-y+1/3, x-y+2/3, z+2/3'
+  9  '-x+y+1/3, -x+2/3, z+2/3'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  9  0.01145400  0.44954800  0.17485300  1.0
+  Cs  Cs1  3  0.00000000  0.00000000  0.85689100  1.0
+  Sr  Sr2  3  0.00000000  0.00000000  0.31587400  1.0
+  Sn  Sn3  9  0.01312233  0.57177867  0.77617667  1.0
+  Se  Se4  9  0.02530800  0.59760900  0.51728900  1.0
+  Se  Se5  9  0.03687133  0.19404167  0.14634467  1.0
+  Se  Se6  9  0.17088233  0.11537067  0.53783567  1.0

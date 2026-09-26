@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Tb12Co5Bi
+_symmetry_space_group_name_H-M   Immm
+_cell_length_a   9.50628201
+_cell_length_b   9.52486201
+_cell_length_c   9.95199201
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   71
+_chemical_formula_structural   Tb12Co5Bi
+_chemical_formula_sum   'Tb24 Co10 Bi2'
+_cell_volume   901.11330993
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z'
+  4  'x, y, -z'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z'
+  8  'x, -y, z'
+  9  'x+1/2, y+1/2, z+1/2'
+  10  '-x+1/2, -y+1/2, -z+1/2'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z+1/2'
+  14  '-x+1/2, y+1/2, z+1/2'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  8  0.00000000  0.19336950  0.20581150  1.0
+  Tb  Tb1  8  0.19080600  0.50000000  0.18707900  1.0
+  Tb  Tb2  8  0.20995500  0.68321600  0.50000000  1.0
+  Co  Co3  4  0.00000000  0.37557000  0.00000000  1.0
+  Co  Co4  4  0.00000000  0.50000000  0.38814000  1.0
+  Co  Co5  2  0.00000000  0.00000000  0.00000000  1.0
+  Bi  Bi6  2  0.00000000  0.00000000  0.50000000  1.0

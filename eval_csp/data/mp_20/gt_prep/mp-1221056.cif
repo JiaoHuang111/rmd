@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaDyTi2O6
+_symmetry_space_group_name_H-M   Pmn2_1
+_cell_length_a   7.63665800
+_cell_length_b   5.54139600
+_cell_length_c   5.33060300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   31
+_chemical_formula_structural   NaDyTi2O6
+_chemical_formula_sum   'Na2 Dy2 Ti4 O12'
+_cell_volume   225.57910428
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+1/2, -y, z+1/2'
+  3  '-x, y, z'
+  4  'x+1/2, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  2  0.00000000  0.28318700  0.99474800  1.0
+  Dy  Dy1  2  0.00000000  0.81985800  0.51768200  1.0
+  Ti  Ti2  4  0.24753100  0.26457200  0.51184400  1.0
+  O  O3  4  0.19787800  0.55399800  0.69176300  1.0
+  O  O4  4  0.20898200  0.03536500  0.77813000  1.0
+  O  O5  2  0.00000000  0.22628900  0.42259200  1.0
+  O  O6  2  0.00000000  0.72459800  0.10150400  1.0

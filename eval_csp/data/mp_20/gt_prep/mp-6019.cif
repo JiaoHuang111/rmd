@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sr2YNbO6
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.85843700
+_cell_length_b   5.96318000
+_cell_length_c   10.17235294
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.96129757
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Sr2YNbO6
+_chemical_formula_sum   'Sr4 Y2 Nb2 O12'
+_cell_volume   291.23990929
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.25863100  0.03956900  0.74933800  1.0
+  Y  Y1  2  0.00000000  0.00000000  0.00000000  1.0
+  Nb  Nb2  2  0.50000000  0.00000000  0.50000000  1.0
+  O  O3  4  0.18043500  0.02681900  0.26473700  1.0
+  O  O4  4  0.26616900  0.69612200  0.04251700  1.0
+  O  O5  4  0.35359400  0.22356400  0.04711800  1.0

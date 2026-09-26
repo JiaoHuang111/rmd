@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_PrCoC2
+_symmetry_space_group_name_H-M   Cc
+_cell_length_a   5.41585800
+_cell_length_b   5.41778400
+_cell_length_c   7.43304735
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   101.97749088
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   9
+_chemical_formula_structural   PrCoC2
+_chemical_formula_sum   'Pr4 Co4 C8'
+_cell_volume   213.35188224
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z+1/2'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  4  0.44203650  0.07274950  0.30700100  1.0
+  Co  Co1  4  0.49909750  0.43043150  0.00101800  1.0
+  C  C2  4  0.27159700  0.31929900  0.58025900  1.0
+  C  C3  4  0.42326950  0.42439650  0.73272300  1.0

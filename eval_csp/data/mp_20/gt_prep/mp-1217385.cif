@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Te7As5I
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   15.04997199
+_cell_length_b   4.07870200
+_cell_length_c   14.06609871
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   110.56351060
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   Te7As5I
+_chemical_formula_sum   'Te14 As10 I2'
+_cell_volume   808.42300001
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  2  0.01401600  0.50000000  0.85515600  1.0
+  Te  Te1  2  0.09662300  0.00000000  0.65586400  1.0
+  Te  Te2  2  0.17522200  0.00000000  0.37974900  1.0
+  Te  Te3  2  0.20190700  0.00000000  0.09459700  1.0
+  Te  Te4  2  0.32615000  0.50000000  0.62843600  1.0
+  Te  Te5  2  0.40159200  0.50000000  0.33966700  1.0
+  Te  Te6  2  0.48848900  0.00000000  0.14511600  1.0
+  As  As7  2  0.00911400  0.00000000  0.00558700  1.0
+  As  As8  2  0.13374900  0.50000000  0.54399700  1.0
+  As  As9  2  0.18002400  0.50000000  0.22607600  1.0
+  As  As10  2  0.32196800  0.00000000  0.76691100  1.0
+  As  As11  2  0.36430300  0.00000000  0.45087000  1.0
+  I  I12  2  0.28684200  0.50000000  0.90797500  1.0

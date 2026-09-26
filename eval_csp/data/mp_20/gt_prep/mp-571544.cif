@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KTiPSe5
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   18.79375201
+_cell_length_b   7.48534600
+_cell_length_c   6.90934136
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   98.91226429
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   KTiPSe5
+_chemical_formula_sum   'K4 Ti4 P4 Se20'
+_cell_volume   960.25539660
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  4  0.23125300  0.50000000  0.23349600  1.0
+  Ti  Ti1  4  0.00000000  0.27684300  0.00000000  1.0
+  P  P2  4  0.13609300  0.00000000  0.21130700  1.0
+  Se  Se3  8  0.08516400  0.23966500  0.32733300  1.0
+  Se  Se4  4  0.05822800  0.50000000  0.81706800  1.0
+  Se  Se5  4  0.08349700  0.00000000  0.89381100  1.0
+  Se  Se6  4  0.24677600  0.50000000  0.74241700  1.0

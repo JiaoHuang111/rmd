@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaYPO4F
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   9.03072000
+_cell_length_b   7.00976800
+_cell_length_c   6.54622008
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   105.99982889
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   NaYPO4F
+_chemical_formula_sum   'Na4 Y4 P4 O16 F4'
+_cell_volume   398.34432319
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  4  0.00000000  0.29310600  0.50000000  1.0
+  Y  Y1  4  0.21765700  0.50000000  0.11724500  1.0
+  P  P2  4  0.15439900  0.00000000  0.27651700  1.0
+  O  O3  8  0.19535950  0.17519350  0.15519400  1.0
+  O  O4  4  0.01719400  0.00000000  0.72796400  1.0
+  O  O5  4  0.24291900  0.50000000  0.49190700  1.0
+  F  F6  4  0.01795200  0.50000000  0.81020700  1.0

@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Sr3(AlIn2)2
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   11.22437800
+_cell_length_b   5.32130600
+_cell_length_c   18.27983286
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   106.29334630
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   Sr3(AlIn2)2
+_chemical_formula_sum   'Sr12 Al8 In16'
+_cell_volume   1047.97427783
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.05356600  0.00000000  0.40139400  1.0
+  Sr  Sr1  2  0.11126800  0.50000000  0.92996000  1.0
+  Sr  Sr2  2  0.22198600  0.50000000  0.73536300  1.0
+  Sr  Sr3  2  0.27633400  0.00000000  0.26458200  1.0
+  Sr  Sr4  2  0.38602200  0.00000000  0.06722900  1.0
+  Sr  Sr5  2  0.44446900  0.50000000  0.60034100  1.0
+  Al  Al6  2  0.03712600  0.00000000  0.80008400  1.0
+  Al  Al7  2  0.13855400  0.50000000  0.53457300  1.0
+  Al  Al8  2  0.29635400  0.00000000  0.86623400  1.0
+  Al  Al9  2  0.47183700  0.50000000  0.20147300  1.0
+  In  In10  2  0.07081200  0.50000000  0.25764700  1.0
+  In  In11  2  0.08484400  0.00000000  0.07487400  1.0
+  In  In12  2  0.20840700  0.50000000  0.13357700  1.0
+  In  In13  2  0.23927100  0.00000000  0.59225200  1.0
+  In  In14  2  0.25199600  0.50000000  0.40813900  1.0
+  In  In15  2  0.37514200  0.00000000  0.46751300  1.0
+  In  In16  2  0.40718300  0.50000000  0.92030700  1.0
+  In  In17  2  0.42483100  0.00000000  0.74445800  1.0

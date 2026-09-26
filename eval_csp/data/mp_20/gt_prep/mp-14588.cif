@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2PtSe2
+_symmetry_space_group_name_H-M   Cmc2_1
+_cell_length_a   3.75050200
+_cell_length_b   10.88896800
+_cell_length_c   11.45483800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   36
+_chemical_formula_structural   Na2PtSe2
+_chemical_formula_sum   'Na8 Pt4 Se8'
+_cell_volume   467.80523196
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z+1/2'
+  3  '-x, y, z'
+  4  'x, -y, z+1/2'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, z+1/2'
+  7  '-x+1/2, y+1/2, z'
+  8  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  4  0.00000000  0.17475300  0.90064300  1.0
+  Na  Na1  4  0.00000000  0.43651700  0.13081500  1.0
+  Pt  Pt2  4  0.00000000  0.13597000  0.24884300  1.0
+  Se  Se3  4  0.00000000  0.28060200  0.62795500  1.0
+  Se  Se4  4  0.00000000  0.44772500  0.86944500  1.0

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_NaZnSO4F
+_symmetry_space_group_name_H-M   C2/c
+_cell_length_a   6.82751293
+_cell_length_b   8.68539200
+_cell_length_c   7.24571038
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   113.77213135
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   15
+_chemical_formula_structural   NaZnSO4F
+_chemical_formula_sum   'Na4 Zn4 S4 O16 F4'
+_cell_volume   393.21310482
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z+1/2'
+  4  'x, -y, z+1/2'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z+1/2'
+  8  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  4  0.00000000  0.33660100  0.75000000  1.0
+  Zn  Zn1  4  0.00000000  0.00000000  0.00000000  1.0
+  S  S2  4  0.00000000  0.32036100  0.25000000  1.0
+  O  O3  8  0.10068350  0.22181150  0.14222000  1.0
+  O  O4  8  0.16450100  0.42226200  0.39904300  1.0
+  F  F5  4  0.00000000  0.08573600  0.75000000  1.0

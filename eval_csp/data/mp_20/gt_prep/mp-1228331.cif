@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ba2Tl3Au
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   12.09597497
+_cell_length_b   5.25513000
+_cell_length_c   8.33757230
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   130.70764450
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   Ba2Tl3Au
+_chemical_formula_sum   'Ba4 Tl6 Au2'
+_cell_volume   401.75406180
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.04116900  0.00000000  0.29207800  1.0
+  Ba  Ba1  2  0.45819650  0.50000000  0.70416900  1.0
+  Tl  Tl2  2  0.15304000  0.50000000  0.69784100  1.0
+  Tl  Tl3  2  0.17873350  0.50000000  0.11759700  1.0
+  Tl  Tl4  2  0.33677600  0.00000000  0.89480300  1.0
+  Au  Au5  2  0.33208500  0.00000000  0.29351200  1.0

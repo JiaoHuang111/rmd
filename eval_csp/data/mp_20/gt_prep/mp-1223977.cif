@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_In5Pt11
+_symmetry_space_group_name_H-M   P2/m
+_cell_length_a   5.74224700
+_cell_length_b   4.10597700
+_cell_length_c   11.53819973
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   92.46860086
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   10
+_chemical_formula_structural   In5Pt11
+_chemical_formula_sum   'In5 Pt11'
+_cell_volume   271.78983587
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  2  0.25362900  0.50000000  0.37448300  1.0
+  In  In1  2  0.27504200  0.50000000  0.86077400  1.0
+  In  In2  1  0.00000000  0.00000000  0.00000000  1.0
+  Pt  Pt3  2  0.00086700  0.00000000  0.75210700  1.0
+  Pt  Pt4  2  0.23596800  0.50000000  0.11762600  1.0
+  Pt  Pt5  2  0.24236900  0.50000000  0.62057400  1.0
+  Pt  Pt6  2  0.49369600  0.00000000  0.25256400  1.0
+  Pt  Pt7  1  0.00000000  0.00000000  0.50000000  1.0
+  Pt  Pt8  1  0.50000000  0.00000000  0.00000000  1.0
+  Pt  Pt9  1  0.50000000  0.00000000  0.50000000  1.0

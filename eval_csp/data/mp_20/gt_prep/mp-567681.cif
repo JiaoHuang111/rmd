@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsPbBr3
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   10.04109000
+_cell_length_b   4.66419000
+_cell_length_c   17.19815500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   CsPbBr3
+_chemical_formula_sum   'Cs4 Pb4 Br12'
+_cell_volume   805.45067905
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  4  0.08827000  0.75000000  0.67134700  1.0
+  Pb  Pb1  4  0.16279200  0.25000000  0.93736800  1.0
+  Br  Br2  4  0.02578700  0.25000000  0.11164700  1.0
+  Br  Br3  4  0.16733100  0.25000000  0.49952300  1.0
+  Br  Br4  4  0.19953000  0.75000000  0.29001700  1.0

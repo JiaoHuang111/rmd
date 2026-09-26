@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy2S2O
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   15.63546600
+_cell_length_b   3.81261800
+_cell_length_c   6.74807400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   Dy2S2O
+_chemical_formula_sum   'Dy8 S8 O4'
+_cell_volume   402.26658617
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  4  0.04056000  0.75000000  0.20628700  1.0
+  Dy  Dy1  4  0.16456800  0.75000000  0.75604900  1.0
+  S  S2  4  0.09984900  0.25000000  0.51331500  1.0
+  S  S3  4  0.18131000  0.25000000  0.04577100  1.0
+  O  O4  4  0.03081500  0.75000000  0.86847300  1.0

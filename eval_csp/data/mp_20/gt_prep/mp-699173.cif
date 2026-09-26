@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CsHIF7
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   5.42341900
+_cell_length_b   8.30770598
+_cell_length_c   8.63617764
+_cell_angle_alpha   109.39107986
+_cell_angle_beta   107.53372264
+_cell_angle_gamma   91.85868395
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   CsHIF7
+_chemical_formula_sum   'Cs2 H2 I2 F14'
+_cell_volume   346.17162682
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  2  0.15347900  0.83276000  0.22955800  1.0
+  H  H1  2  0.18253200  0.22150100  0.55712000  1.0
+  I  I2  2  0.30632600  0.65086700  0.73868300  1.0
+  F  F3  2  0.05283200  0.35249400  0.53019300  1.0
+  F  F4  2  0.11427400  0.83360500  0.83604300  1.0
+  F  F5  2  0.22394200  0.53909400  0.88977800  1.0
+  F  F6  2  0.27049000  0.12362900  0.58675400  1.0
+  F  F7  2  0.40925100  0.48566500  0.28232200  1.0
+  F  F8  2  0.43197000  0.21983200  0.04548700  1.0
+  F  F9  2  0.47468900  0.80944800  0.66450400  1.0

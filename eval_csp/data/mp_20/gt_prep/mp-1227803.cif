@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_BaSn2Bi
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   12.67171801
+_cell_length_b   7.31073400
+_cell_length_c   12.23085222
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   110.21454482
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   BaSn2Bi
+_chemical_formula_sum   'Ba8 Sn16 Bi8'
+_cell_volume   1063.27026833
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.12890600  0.50000000  0.88806600  1.0
+  Ba  Ba1  2  0.21354300  0.00000000  0.64036300  1.0
+  Ba  Ba2  2  0.28558500  0.50000000  0.35929900  1.0
+  Ba  Ba3  2  0.37092500  0.00000000  0.11306800  1.0
+  Sn  Sn4  4  0.11044150  0.20655350  0.12340600  1.0
+  Sn  Sn5  4  0.39029250  0.29307850  0.87519900  1.0
+  Sn  Sn6  4  0.45858950  0.24497750  0.62566900  1.0
+  Sn  Sn7  2  0.09544700  0.00000000  0.87224300  1.0
+  Sn  Sn8  2  0.40241200  0.50000000  0.12329700  1.0
+  Bi  Bi9  4  0.04159350  0.25170650  0.37566800  1.0
+  Bi  Bi10  2  0.20308000  0.50000000  0.62345100  1.0
+  Bi  Bi11  2  0.29826500  0.00000000  0.38032700  1.0

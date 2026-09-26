@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sc2FeSi2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   9.88068799
+_cell_length_b   3.98335800
+_cell_length_c   9.40687490
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   118.55786829
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Sc2FeSi2
+_chemical_formula_sum   'Sc8 Fe4 Si8'
+_cell_volume   325.19357232
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  4  0.00077400  0.00000000  0.67220300  1.0
+  Sc  Sc1  4  0.18504300  0.00000000  0.10795200  1.0
+  Fe  Fe2  4  0.22937700  0.50000000  0.37335700  1.0
+  Si  Si3  4  0.00688500  0.50000000  0.87397400  1.0
+  Si  Si4  4  0.14644500  0.50000000  0.56512800  1.0

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Co6BP
+_symmetry_space_group_name_H-M   C2
+_cell_length_a   12.03401233
+_cell_length_b   4.25122800
+_cell_length_c   8.38100122
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   131.95483781
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   5
+_chemical_formula_structural   Co6BP
+_chemical_formula_sum   'Co24 B4 P4'
+_cell_volume   318.86158223
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y, -z'
+  3  'x+1/2, y+1/2, z'
+  4  '-x+1/2, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  4  0.03044900  0.99852000  0.38678200  1.0
+  Co  Co1  4  0.07322050  0.25001750  0.95656900  1.0
+  Co  Co2  4  0.09949300  0.76976000  0.18961100  1.0
+  Co  Co3  4  0.13454300  0.46842000  0.65118800  1.0
+  Co  Co4  4  0.17059150  0.75290150  0.95076500  1.0
+  Co  Co5  4  0.21307600  0.27268300  0.40721300  1.0
+  B  B6  4  0.03013450  0.50880850  0.32370700  1.0
+  P  P7  4  0.21265450  0.97888550  0.75019900  1.0

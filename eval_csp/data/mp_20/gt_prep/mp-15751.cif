@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba3Y4O9
+_symmetry_space_group_name_H-M   R3
+_cell_length_a   6.16072812
+_cell_length_b   6.16072812
+_cell_length_c   25.70381358
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   146
+_chemical_formula_structural   Ba3Y4O9
+_chemical_formula_sum   'Ba9 Y12 O27'
+_cell_volume   844.87465230
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y, x-y, z'
+  3  '-x+y, -x, z'
+  4  'x+2/3, y+1/3, z+1/3'
+  5  '-y+2/3, x-y+1/3, z+1/3'
+  6  '-x+y+2/3, -x+1/3, z+1/3'
+  7  'x+1/3, y+2/3, z+2/3'
+  8  '-y+1/3, x-y+2/3, z+2/3'
+  9  '-x+y+1/3, -x+2/3, z+2/3'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  3  0.00000000  0.00000000  0.16478800  1.0
+  Ba  Ba1  3  0.00000000  0.00000000  0.58354600  1.0
+  Ba  Ba2  3  0.00000000  0.00000000  0.99828000  1.0
+  Y  Y3  3  0.00000000  0.00000000  0.29961900  1.0
+  Y  Y4  3  0.00000000  0.00000000  0.42527000  1.0
+  Y  Y5  3  0.00000000  0.00000000  0.73772300  1.0
+  Y  Y6  3  0.00000000  0.00000000  0.86313600  1.0
+  O  O7  9  0.00045867  0.43552033  0.58144233  1.0
+  O  O8  9  0.01346033  0.56896167  0.02490467  1.0
+  O  O9  9  0.10910300  0.76098000  0.47053200  1.0

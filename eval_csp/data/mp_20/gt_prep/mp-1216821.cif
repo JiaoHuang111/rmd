@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Tm4Zr3O12
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   6.32505441
+_cell_length_b   6.35941533
+_cell_length_c   6.52326797
+_cell_angle_alpha   99.84772479
+_cell_angle_beta   98.78482921
+_cell_angle_gamma   99.47491134
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Tm4Zr3O12
+_chemical_formula_sum   'Tm4 Zr3 O12'
+_cell_volume   250.54101893
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  2  0.30666400  0.13512900  0.61009100  1.0
+  Tm  Tm1  2  0.38939900  0.69909700  0.86519400  1.0
+  Zr  Zr2  2  0.15132400  0.60450100  0.32760700  1.0
+  Zr  Zr3  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O4  2  0.03325300  0.67725600  0.88945200  1.0
+  O  O5  2  0.08148600  0.91935500  0.31068200  1.0
+  O  O6  2  0.17492400  0.42829200  0.57425600  1.0
+  O  O7  2  0.31667000  0.07020100  0.93845600  1.0
+  O  O8  2  0.41624600  0.58156900  0.17799100  1.0
+  O  O9  2  0.41666100  0.81399200  0.56908600  1.0

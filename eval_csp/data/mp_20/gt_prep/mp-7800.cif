@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_LiSmO2
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.74008749
+_cell_length_b   6.04498500
+_cell_length_c   5.72976200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   102.79092324
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   LiSmO2
+_chemical_formula_sum   'Li4 Sm4 O8'
+_cell_volume   193.88181882
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  4  0.33502200  0.13796100  0.82318400  1.0
+  Sm  Sm1  4  0.20214800  0.57104900  0.80472500  1.0
+  O  O2  4  0.08375700  0.23875700  0.01684300  1.0
+  O  O3  4  0.42831800  0.63502100  0.20230700  1.0

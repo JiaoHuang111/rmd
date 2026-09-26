@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_CsHSO2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   11.42710000
+_cell_length_b   5.81737100
+_cell_length_c   12.03870406
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   94.19133362
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   CsHSO2
+_chemical_formula_sum   'Cs8 H8 S8 O16'
+_cell_volume   798.14072407
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  4  0.14655150  0.00000000  0.91887800  1.0
+  Cs  Cs1  4  0.22664500  0.00000000  0.34398500  1.0
+  H  H2  8  0.05880850  0.13527450  0.62810700  1.0
+  S  S3  4  0.03324600  0.50000000  0.18874500  1.0
+  S  S4  4  0.04094500  0.50000000  0.35988100  1.0
+  O  O5  8  0.09280550  0.28903650  0.15211000  1.0
+  O  O6  4  0.09358500  0.50000000  0.85143500  1.0
+  O  O7  4  0.11120150  0.00000000  0.62706300  1.0

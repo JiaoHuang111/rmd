@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_NaLaFeWO6
+_symmetry_space_group_name_H-M   P2_1
+_cell_length_a   5.64790430
+_cell_length_b   5.60198800
+_cell_length_c   8.11024506
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.27776060
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   4
+_chemical_formula_structural   NaLaFeWO6
+_chemical_formula_sum   'Na2 La2 Fe2 W2 O12'
+_cell_volume   256.60101933
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  2  0.25747200  0.01816100  0.50043100  1.0
+  La  La1  2  0.24754200  0.01091600  0.99902600  1.0
+  Fe  Fe2  2  0.24643900  0.53236300  0.74092800  1.0
+  W  W3  2  0.25338900  0.53660200  0.26156700  1.0
+  O  O4  2  0.00556100  0.25787300  0.80987200  1.0
+  O  O5  2  0.03108900  0.27699000  0.19649900  1.0
+  O  O6  2  0.16664900  0.53636600  0.48289600  1.0
+  O  O7  2  0.33129400  0.54815600  0.00989400  1.0
+  O  O8  2  0.45731800  0.81347100  0.27571900  1.0
+  O  O9  2  0.48416800  0.82750200  0.72103900  1.0

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaVWO6
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   9.63209575
+_cell_length_b   3.76512100
+_cell_length_c   7.35602651
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   113.44940961
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   NaVWO6
+_chemical_formula_sum   'Na2 V2 W2 O12'
+_cell_volume   244.74134149
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  2  0.00208800  0.00000000  0.00524700  1.0
+  V  V1  2  0.31781400  0.50000000  0.36568500  1.0
+  W  W2  2  0.17898550  0.00000000  0.62160300  1.0
+  O  O3  2  0.01914750  0.00000000  0.69002900  1.0
+  O  O4  2  0.17837100  0.50000000  0.14425400  1.0
+  O  O5  2  0.19083900  0.50000000  0.55630800  1.0
+  O  O6  2  0.30181000  0.00000000  0.43666900  1.0
+  O  O7  2  0.33062550  0.00000000  0.85859100  1.0
+  O  O8  2  0.48031450  0.50000000  0.32161400  1.0

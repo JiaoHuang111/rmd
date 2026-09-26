@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_TlAgF3
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   6.28418822
+_cell_length_b   6.23919319
+_cell_length_c   4.42941008
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.65836654
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   TlAgF3
+_chemical_formula_sum   'Tl2 Ag2 F6'
+_cell_volume   173.65801625
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  2  0.00468400  0.00000000  0.99488500  1.0
+  Ag  Ag1  2  0.00257150  0.50000000  0.48673100  1.0
+  F  F2  4  0.25364000  0.25126300  0.48416200  1.0
+  F  F3  2  0.49654400  0.00000000  0.98635100  1.0

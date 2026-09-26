@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Cs3ScO3
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   7.93884000
+_cell_length_b   12.61422801
+_cell_length_c   7.44461448
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   103.11451146
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Cs3ScO3
+_chemical_formula_sum   'Cs12 Sc4 O12'
+_cell_volume   726.07681402
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  4  0.00000000  0.20304300  0.50000000  1.0
+  Cs  Cs1  4  0.00000000  0.26119000  0.00000000  1.0
+  Cs  Cs2  4  0.13450700  0.50000000  0.34339600  1.0
+  Sc  Sc3  4  0.16530000  0.00000000  0.14667700  1.0
+  O  O4  8  0.21272450  0.37135250  0.73848900  1.0
+  O  O5  4  0.09444300  0.00000000  0.86075500  1.0

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na5Hf2F13
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   11.68108600
+_cell_length_b   5.55518800
+_cell_length_c   8.49837714
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   97.27853563
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Na5Hf2F13
+_chemical_formula_sum   'Na10 Hf4 F26'
+_cell_volume   547.02131663
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  4  0.16264500  0.50000000  0.42914100  1.0
+  Na  Na1  4  0.22224600  0.00000000  0.15498000  1.0
+  Na  Na2  2  0.00000000  0.50000000  0.00000000  1.0
+  Hf  Hf3  4  0.07298900  0.00000000  0.74343800  1.0
+  F  F4  8  0.06059150  0.23625450  0.25004300  1.0
+  F  F5  8  0.13313800  0.22322800  0.92881600  1.0
+  F  F6  8  0.18045350  0.23537550  0.64432200  1.0
+  F  F7  2  0.00000000  0.00000000  0.50000000  1.0

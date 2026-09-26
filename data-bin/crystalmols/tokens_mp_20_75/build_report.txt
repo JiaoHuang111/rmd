@@ -1,0 +1,27 @@
+MP-20 75% subset  built 2026-09-10 08:46:29
+source: data-bin/crystalmols/tokens_mp_20
+out   : data-bin/crystalmols/tokens_mp_20_75
+rule  : Take whole length buckets in ascending sample token-length order, accumulating until fraction x the split's sample count is reached (when the target is crossed, the whole bucket is included); train/val are handled independently; no random sampling.
+
+--- train ---
+  total samples (src)      : 27136
+  target count (0.75)       : 20352.00
+  selected samples         : 20516
+  actual fraction          : 75.6044%
+  token length threshold   : <= 417
+  buckets taken / total    : 120 / 403
+  tokens in subset         : 6,777,431
+  row content mismatch     : 0
+  (alt floor reading: 20306 rows, threshold <= 416)
+
+--- val ---
+  total samples (src)      : 9047
+  target count (0.75)       : 6785.25
+  selected samples         : 6848
+  actual fraction          : 75.6936%
+  token length threshold   : <= 416
+  buckets taken / total    : 104 / 321
+  tokens in subset         : 2,256,461
+  row content mismatch     : 0
+  (alt floor reading: 6769 rows, threshold <= 415)
+

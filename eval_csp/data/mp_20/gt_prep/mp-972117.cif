@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_SrTeO3
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   6.93023200
+_cell_length_b   7.27720100
+_cell_length_c   8.80831401
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   126.67955043
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   SrTeO3
+_chemical_formula_sum   'Sr4 Te4 O12'
+_cell_volume   356.26510457
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.13639700  0.12758800  0.36799600  1.0
+  Te  Te1  4  0.37011200  0.66960700  0.60550500  1.0
+  O  O2  4  0.08923600  0.68129100  0.97981500  1.0
+  O  O3  4  0.22069100  0.03113100  0.93840200  1.0
+  O  O4  4  0.39381700  0.59389500  0.82188700  1.0

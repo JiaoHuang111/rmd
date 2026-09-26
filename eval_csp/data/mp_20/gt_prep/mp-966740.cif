@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Cs5Tl11Cd2
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   5.89596100
+_cell_length_b   18.58391599
+_cell_length_c   13.61374800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   Cs5Tl11Cd2
+_chemical_formula_sum   'Cs10 Tl22 Cd4'
+_cell_volume   1491.65896584
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x, y+1/2, z+1/2'
+  6  '-x, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  4  0.00000000  0.19065600  0.70449400  1.0
+  Cs  Cs1  4  0.50000000  0.19068850  0.41733250  1.0
+  Cs  Cs2  2  0.50000000  0.00000000  0.63143200  1.0
+  Tl  Tl3  4  0.00000000  0.09986850  0.23763650  1.0
+  Tl  Tl4  4  0.00000000  0.15231700  0.99501300  1.0
+  Tl  Tl5  4  0.50000000  0.09588250  0.89072850  1.0
+  Tl  Tl6  4  0.50000000  0.15507600  0.13238800  1.0
+  Tl  Tl7  2  0.00000000  0.00000000  0.42983000  1.0
+  Tl  Tl8  2  0.00000000  0.00000000  0.83694000  1.0
+  Tl  Tl9  2  0.50000000  0.00000000  0.28403000  1.0
+  Cd  Cd10  4  0.24986400  0.00000000  0.06274200  1.0

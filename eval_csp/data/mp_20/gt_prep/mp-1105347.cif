@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Eu5(MoO6)2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   12.80804600
+_cell_length_b   5.93271000
+_cell_length_c   7.85826754
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   107.98247391
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Eu5(MoO6)2
+_chemical_formula_sum   'Eu10 Mo4 O24'
+_cell_volume   567.95284132
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  4  0.18547200  0.50000000  0.82189600  1.0
+  Eu  Eu1  4  0.19329100  0.50000000  0.36391400  1.0
+  Eu  Eu2  2  0.00000000  0.00000000  0.50000000  1.0
+  Mo  Mo3  4  0.00000000  0.22556200  0.00000000  1.0
+  O  O4  8  0.15604750  0.25085650  0.57929400  1.0
+  O  O5  8  0.15649900  0.25389400  0.07778900  1.0
+  O  O6  4  0.00044900  0.50000000  0.17026100  1.0
+  O  O7  4  0.00106300  0.00000000  0.19245700  1.0

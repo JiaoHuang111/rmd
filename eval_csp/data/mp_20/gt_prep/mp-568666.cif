@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbAuI3
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   13.80938200
+_cell_length_b   8.07435600
+_cell_length_c   8.88058988
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   117.89565803
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   RbAuI3
+_chemical_formula_sum   'Rb4 Au4 I12'
+_cell_volume   875.14191120
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  4  0.23094600  0.50000000  0.23250900  1.0
+  Au  Au1  2  0.00000000  0.00000000  0.00000000  1.0
+  Au  Au2  2  0.00000000  0.50000000  0.50000000  1.0
+  I  I3  8  0.03608750  0.23603150  0.81643000  1.0
+  I  I4  4  0.21457500  0.50000000  0.64587000  1.0

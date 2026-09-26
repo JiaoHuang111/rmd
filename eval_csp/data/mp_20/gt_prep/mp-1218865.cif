@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sr2Al3In
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   11.29485800
+_cell_length_b   4.91360800
+_cell_length_c   7.95412647
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   134.19707219
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   Sr2Al3In
+_chemical_formula_sum   'Sr4 Al6 In2'
+_cell_volume   316.49026783
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.04662600  0.50000000  0.29609700  1.0
+  Sr  Sr1  2  0.45193200  0.00000000  0.70116500  1.0
+  Al  Al2  2  0.15352200  0.00000000  0.08375800  1.0
+  Al  Al3  2  0.17007900  0.00000000  0.74412700  1.0
+  Al  Al4  2  0.33820700  0.50000000  0.89792300  1.0
+  In  In5  2  0.33963400  0.50000000  0.27692900  1.0

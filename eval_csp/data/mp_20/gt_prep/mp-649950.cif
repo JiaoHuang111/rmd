@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RuC3Br2O3
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   10.87585999
+_cell_length_b   7.50392400
+_cell_length_c   9.56670184
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   106.35751707
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   RuC3Br2O3
+_chemical_formula_sum   'Ru4 C12 Br8 O12'
+_cell_volume   749.15156146
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  4  0.06339700  0.00000000  0.21129400  1.0
+  C  C1  8  0.09374300  0.18481300  0.35224800  1.0
+  C  C2  4  0.23777200  0.00000000  0.20239300  1.0
+  Br  Br3  4  0.00000000  0.23725800  0.00000000  1.0
+  Br  Br4  4  0.17103800  0.00000000  0.77446600  1.0
+  O  O5  8  0.10927700  0.30053700  0.43459600  1.0
+  O  O6  4  0.15561100  0.50000000  0.79445700  1.0

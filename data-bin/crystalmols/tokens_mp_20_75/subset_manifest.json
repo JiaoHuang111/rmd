@@ -1,0 +1,51 @@
+{
+ "created_at": "2026-09-10 08:46:29",
+ "fraction_requested": 0.75,
+ "source_dir": "data-bin/crystalmols/tokens_mp_20",
+ "out_dir": "data-bin/crystalmols/tokens_mp_20_75",
+ "selection_rule": "Take whole length buckets in ascending sample token-length order, accumulating until fraction x the split's sample count is reached (when the target is crossed, the whole bucket is included); train/val are handled independently; no random sampling.",
+ "splits": {
+  "train": {
+   "target_fraction": 0.75,
+   "target_count": 20352.0,
+   "selected_count": 20516,
+   "actual_fraction": 0.7560436320754716,
+   "threshold_length": 417,
+   "n_buckets_total": 403,
+   "n_buckets_taken": 120,
+   "n_buckets_skipped": 283,
+   "max_len_selected": 417,
+   "total_samples": 27136,
+   "alt_floor_count": 20306,
+   "alt_floor_threshold": 416,
+   "split": "train",
+   "tokens": 6777431,
+   "tokens_src_selected": 6777431,
+   "row_content_mismatch": 0,
+   "starts_first": 0,
+   "starts_last_row_end": 6777431,
+   "bin_bytes": 13554862
+  },
+  "val": {
+   "target_fraction": 0.75,
+   "target_count": 6785.25,
+   "selected_count": 6848,
+   "actual_fraction": 0.756936000884271,
+   "threshold_length": 416,
+   "n_buckets_total": 321,
+   "n_buckets_taken": 104,
+   "n_buckets_skipped": 217,
+   "max_len_selected": 416,
+   "total_samples": 9047,
+   "alt_floor_count": 6769,
+   "alt_floor_threshold": 415,
+   "split": "val",
+   "tokens": 2256461,
+   "tokens_src_selected": 2256461,
+   "row_content_mismatch": 0,
+   "starts_first": 0,
+   "starts_last_row_end": 2256461,
+   "bin_bytes": 4512922
+  }
+ }
+}

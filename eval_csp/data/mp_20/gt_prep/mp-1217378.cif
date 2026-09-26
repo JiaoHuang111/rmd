@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_TePb3(ClO2)2
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   5.63700300
+_cell_length_b   5.65454400
+_cell_length_c   12.82050400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   TePb3(ClO2)2
+_chemical_formula_sum   'Te2 Pb6 Cl4 O8'
+_cell_volume   408.64948179
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x, y+1/2, z+1/2'
+  6  '-x, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  2  0.50000000  0.00000000  0.93013800  1.0
+  Pb  Pb1  2  0.00000000  0.00000000  0.10193300  1.0
+  Pb  Pb2  2  0.00000000  0.00000000  0.38780000  1.0
+  Pb  Pb3  2  0.50000000  0.00000000  0.60811300  1.0
+  Cl  Cl4  2  0.00000000  0.00000000  0.74336100  1.0
+  Cl  Cl5  2  0.50000000  0.00000000  0.25218000  1.0
+  O  O6  8  0.26758000  0.23199200  0.99411900  1.0

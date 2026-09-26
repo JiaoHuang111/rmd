@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Al8Cr4Si3
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   4.93496917
+_cell_length_b   5.14605396
+_cell_length_c   8.85948207
+_cell_angle_alpha   106.41757723
+_cell_angle_beta   90.53867903
+_cell_angle_gamma   101.38119119
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Al8Cr4Si3
+_chemical_formula_sum   'Al8 Cr4 Si3'
+_cell_volume   211.06585213
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  2  0.05467300  0.67179100  0.81937400  1.0
+  Al  Al1  2  0.17660600  0.21916800  0.86440000  1.0
+  Al  Al2  2  0.41991200  0.16444000  0.12295000  1.0
+  Al  Al3  2  0.49524200  0.40279700  0.62871200  1.0
+  Cr  Cr4  2  0.29679000  0.64974800  0.10054500  1.0
+  Cr  Cr5  2  0.32355400  0.88430400  0.62364400  1.0
+  Si  Si6  2  0.16141500  0.96022800  0.37417000  1.0
+  Si  Si7  1  0.00000000  0.50000000  0.50000000  1.0

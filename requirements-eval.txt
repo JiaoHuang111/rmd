@@ -1,0 +1,15 @@
+# Dependencies for the CSP benchmark evaluation in eval_csp/ only.
+#
+# These are deliberately kept out of requirements.txt: the evaluation runs in its
+# own environment because pymatgen and smact pull a different (older) numpy/pymatgen
+# stack than the training code needs.
+#
+#   pip install -r requirements-eval.txt
+#
+# Then point the driver at that interpreter:
+#   EVAL_PY=/path/to/eval-env/bin/python ./eval_csp/run_eval_csp.sh --ckpt CKPT
+
+pymatgen      # StructureMatcher, CifWriter, Structure.from_str.
+              # Verified with 2024.8.9 and 2023.8.10; no stricter pin is known to be needed.
+smact         # smact_validity(), part of the official candidate-validity chain.
+              # Verified with 2.5.5.

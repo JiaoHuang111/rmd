@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Cr2Se3
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   6.91226900
+_cell_length_b   7.32532359
+_cell_length_c   8.65019230
+_cell_angle_alpha   90.53485168
+_cell_angle_beta   104.10730280
+_cell_angle_gamma   104.92846018
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Cr2Se3
+_chemical_formula_sum   'Cr8 Se12'
+_cell_volume   409.23455954
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  2  0.17183100  0.67328600  0.17591000  1.0
+  Cr  Cr1  2  0.17563500  0.90645000  0.67374300  1.0
+  Cr  Cr2  2  0.18584100  0.43454900  0.66135500  1.0
+  Cr  Cr3  2  0.49218500  0.24043800  0.01679200  1.0
+  Se  Se4  2  0.09298900  0.89255700  0.36786100  1.0
+  Se  Se5  2  0.10641200  0.40436300  0.36172200  1.0
+  Se  Se6  2  0.22388100  0.43525700  0.97251700  1.0
+  Se  Se7  2  0.22622500  0.92777700  0.97433800  1.0
+  Se  Se8  2  0.43917000  0.23145900  0.70622900  1.0
+  Se  Se9  2  0.44822600  0.74028300  0.69025600  1.0

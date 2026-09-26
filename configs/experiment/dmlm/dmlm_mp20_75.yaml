@@ -1,0 +1,124 @@
+# @package _global_
+#
+# Unconditional DMLM (random generation, no CSP conditioning) at the MP-20 75%
+# data scale.
+#
+# The training recipe reproduces the reference 150M run (`dmlm_150m_0728`)
+# item by item. That recipe is pinned by three cross-checked sources, all
+# inside the reference run's output directory: its Hydra overrides file, the
+# resolved debug_config.yaml snapshot, and the hyper_parameters stored in
+# last.ckpt. Together they give:
+#   - experiment=dmlm/dmlm_base, name=dmlm_150m
+#   - datamodule.max_tokens=40960, trainer.accumulate_grad_batches=8
+#   - optimizer lr=1e-3 betas(0.9,0.99) wd=0.01; lr_scheduler polynomial
+#     warmup=100 total=50000 lr=1e-3 lr_end=1e-4 power=1; model=dmlm 150M
+#
+# Differences from that recipe (only these; everything else is identical):
+#   - datamodule.data_dir / vocab_file -> the 75% subset (this experiment's variable)
+#   - name / project / output directory -> a directory dedicated to this experiment
+#   - trainer.devices is passed on the command line (the reference run used
+#     devices=auto), so the run fits whatever GPUs are actually free
+#
+# Data scale (built by data_scale/build_mp20_subset.py, taking whole length
+# buckets in ascending token-length order):
+#   train 20516 rows (75.604%, threshold len<=417) / val 6848 rows (75.694%, <=416)
+#
+# Run:
+#   python train.py experiment=dmlm/dmlm_mp20_75 name=dmlm_150m_mp20_75
+
+defaults:
+  - /datamodule: crystalmols_hf
+  - /callbacks: lm
+  - /trainer: ddp_bf16
+
+project: "DMLM_150m_mp20_75"
+name: "dmlm_150m_mp20_75"
+
+# ======================
+# Data Module (Crystal) -- 75% subset
+# ======================
+datamodule:
+  data_dir: ${paths.data_dir}/tokens_mp_20_75
+  vocab_file: ${paths.data_dir}/tokens_mp_20_75/meta.pkl
+  max_tokens: 40960
+  max_len: 2048
+  num_workers: 16
+  tokenizer: crystallm
+  format: cif_tokens
+  vocab_size: 375
+  batch_size: 32            # matches the reference run's resolved config
+  conditioning: none        # unconditional (random generation, not CSP)
+
+# ======================
+# Model -- identical to the reference run, item by item
+# ======================
+model:
+  _target_: dmlm
+  num_diffusion_timesteps: 500
+  gradient_ckpt: false
+  rdm_couple: false
+  lora:
+    enable: false
+    lora_rank: 16
+    lora_dropout: 0.1
+    lora_target_module: (esm.encoder.layer.[0-9]*.attention.(self.query|self.key|self.value|output.dense).*|esm.encoder.layer.[0-9]*.(intermediate|output).dense.*)
+    modules_to_save: lm_head,esm.embeddings
+  net:
+    arch_type: esm_crystal
+    name: facebook/esm2_t30_150M_UR50D
+    dropout: 0.1
+
+# ======================
+# Task -- identical to the reference run, item by item
+# ======================
+task:
+  _target_: lm/dmlm
+  learning:
+    noise: random_mask
+    watch_t1_t2_loss: false
+    cal_constant_loss: false
+    weight: linear
+  criterion:
+    _target_: byprot.modules.cross_entropy.RDMCrossEntropyLoss
+    label_smoothing: 0.0
+    ignore_index: 371
+  optimizer:
+    type: adamw
+    _partial_: true
+    lr: ${train.lr}
+    betas:
+      - 0.9
+      - 0.99
+    weight_decay: 0.01
+  lr_scheduler:
+    type: polynomial
+    warmup_steps: 100
+    total_steps: ${trainer.max_steps}
+    lr: ${train.lr}
+    lr_end: 1e-4
+    warmup_init_lr: 1e-07
+    power: 1
+
+train:
+  seed: 42                  # same as the reference run
+  lr: 1e-3                  # same as the reference run
+  monitor: "val/loss"
+  mode: "min"
+  patience: 1000
+
+# ======================
+# Trainer -- identical to the reference run's resolved config
+# ======================
+trainer:
+  min_epochs: 10
+  max_epochs: 1500
+  gradient_clip_val: 1.0
+  val_check_interval: 250
+  num_sanity_val_steps: 0
+  reload_dataloaders_every_n_epochs: 0
+  use_distributed_sampler: false
+  max_steps: 50000
+  accumulate_grad_batches: 8
+  check_val_every_n_epoch: null
+  enable_progress_bar: false
+  num_nodes: 1

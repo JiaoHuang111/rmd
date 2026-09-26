@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Hf4CuSi4
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   9.73283800
+_cell_length_b   3.75433800
+_cell_length_c   8.67823198
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   109.85295798
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Hf4CuSi4
+_chemical_formula_sum   'Hf8 Cu2 Si8'
+_cell_volume   298.25929259
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  4  0.10796000  0.00000000  0.38074100  1.0
+  Hf  Hf1  4  0.24625900  0.00000000  0.84215000  1.0
+  Si  Si2  4  0.03768400  0.50000000  0.85009500  1.0
+  Si  Si3  4  0.11528200  0.50000000  0.61355000  1.0
+  Cu  Cu4  2  0.00000000  0.00000000  0.00000000  1.0

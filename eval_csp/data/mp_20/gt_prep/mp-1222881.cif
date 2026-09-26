@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LaMn4(BiO4)3
+_symmetry_space_group_name_H-M   Pm
+_cell_length_a   5.50468470
+_cell_length_b   7.69147600
+_cell_length_c   5.98258019
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.27012597
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   6
+_chemical_formula_structural   LaMn4(BiO4)3
+_chemical_formula_sum   'La1 Mn4 Bi3 O12'
+_cell_volume   253.29454654
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.48513800  0.00000000  0.43343500  1.0
+  Mn  Mn1  2  0.49872800  0.25061000  0.99826300  1.0
+  Mn  Mn2  2  0.99927300  0.25171300  0.50208800  1.0
+  Bi  Bi3  1  0.01000300  0.00000000  0.93084800  1.0
+  Bi  Bi4  1  0.51030200  0.50000000  0.56987300  1.0
+  Bi  Bi5  1  0.98848000  0.50000000  0.07045900  1.0
+  O  O6  2  0.21038000  0.20243400  0.17854100  1.0
+  O  O7  2  0.29040200  0.20894500  0.68027800  1.0
+  O  O8  2  0.70769600  0.29567800  0.32265700  1.0
+  O  O9  2  0.79016700  0.29571200  0.82064000  1.0
+  O  O10  1  0.09996600  0.50000000  0.46537300  1.0
+  O  O11  1  0.39961700  0.50000000  0.97023900  1.0
+  O  O12  1  0.59999600  0.00000000  0.02717900  1.0
+  O  O13  1  0.91320700  0.00000000  0.52766900  1.0

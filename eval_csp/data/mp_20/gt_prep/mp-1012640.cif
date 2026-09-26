@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CrFeCoNi
+_symmetry_space_group_name_H-M   Pm
+_cell_length_a   4.37047000
+_cell_length_b   4.01256600
+_cell_length_c   5.04023072
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.36935017
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   6
+_chemical_formula_structural   CrFeCoNi
+_chemical_formula_sum   'Cr2 Fe2 Co2 Ni2'
+_cell_volume   88.38767815
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.30273700  0.00000000  0.37372400  1.0
+  Cr  Cr1  1  0.62962600  0.50000000  0.87612500  1.0
+  Fe  Fe2  1  0.13618300  0.50000000  0.61800600  1.0
+  Fe  Fe3  1  0.79351000  0.00000000  0.62328600  1.0
+  Co  Co4  1  0.13074900  0.50000000  0.12005300  1.0
+  Co  Co5  1  0.63743000  0.50000000  0.36915300  1.0
+  Ni  Ni6  1  0.29688700  0.00000000  0.87595000  1.0
+  Ni  Ni7  1  0.80221500  0.00000000  0.12578900  1.0

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Er5(MoO6)2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   12.26908800
+_cell_length_b   5.95411600
+_cell_length_c   7.29364487
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   107.36250299
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Er5(MoO6)2
+_chemical_formula_sum   'Er10 Mo4 O24'
+_cell_volume   508.53508506
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  4  0.19064300  0.50000000  0.82297200  1.0
+  Er  Er1  4  0.19968100  0.50000000  0.36375000  1.0
+  Er  Er2  2  0.00000000  0.00000000  0.50000000  1.0
+  Mo  Mo3  4  0.00000000  0.24697900  0.00000000  1.0
+  O  O4  8  0.15361100  0.25018300  0.57345900  1.0
+  O  O5  8  0.16733400  0.26730400  0.08633600  1.0
+  O  O6  4  0.00041300  0.50000000  0.80089300  1.0
+  O  O7  4  0.00173600  0.00000000  0.19147300  1.0

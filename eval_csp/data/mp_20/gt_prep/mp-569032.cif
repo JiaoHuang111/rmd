@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_PrAu6
+_symmetry_space_group_name_H-M   C2/c
+_cell_length_a   7.93199600
+_cell_length_b   7.92934600
+_cell_length_c   9.27254721
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   100.33176111
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   15
+_chemical_formula_structural   PrAu6
+_chemical_formula_sum   'Pr4 Au24'
+_cell_volume   573.74570148
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z+1/2'
+  4  'x, -y, z+1/2'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z+1/2'
+  8  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  4  0.00000000  0.31477200  0.75000000  1.0
+  Au  Au1  8  0.09936250  0.05751750  0.13656400  1.0
+  Au  Au2  8  0.14641500  0.31249400  0.37231700  1.0
+  Au  Au3  8  0.19736500  0.41823400  0.08119800  1.0

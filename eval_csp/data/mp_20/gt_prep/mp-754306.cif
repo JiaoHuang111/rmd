@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ce4SmO9
+_symmetry_space_group_name_H-M   Imm2
+_cell_length_a   3.82034400
+_cell_length_b   19.77994999
+_cell_length_c   5.55378000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   44
+_chemical_formula_structural   Ce4SmO9
+_chemical_formula_sum   'Ce8 Sm2 O18'
+_cell_volume   419.67812348
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z+1/2'
+  6  '-x+1/2, -y+1/2, z+1/2'
+  7  '-x+1/2, y+1/2, z+1/2'
+  8  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  4  0.00000000  0.10691200  0.01225000  1.0
+  Ce  Ce1  4  0.00000000  0.30030100  0.00719500  1.0
+  Sm  Sm2  2  0.00000000  0.50000000  0.95203400  1.0
+  O  O3  4  0.00000000  0.19640450  0.75963350  1.0
+  O  O4  4  0.00000000  0.20266900  0.25857800  1.0
+  O  O5  4  0.00000000  0.39399800  0.74999200  1.0
+  O  O6  4  0.00000000  0.41628750  0.25796250  1.0
+  O  O7  2  0.00000000  0.00000000  0.22711800  1.0

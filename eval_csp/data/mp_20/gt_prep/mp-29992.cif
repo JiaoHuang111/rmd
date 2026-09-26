@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AsPbF7
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   4.77220200
+_cell_length_b   7.41579501
+_cell_length_c   7.67584950
+_cell_angle_alpha   105.66724637
+_cell_angle_beta   101.07386720
+_cell_angle_gamma   90.87866355
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   AsPbF7
+_chemical_formula_sum   'As2 Pb2 F14'
+_cell_volume   256.03309880
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  2  0.35213400  0.18937500  0.28897200  1.0
+  Pb  Pb1  2  0.18194500  0.34979400  0.80453400  1.0
+  F  F2  2  0.07694700  0.06010000  0.33729100  1.0
+  F  F3  2  0.13938100  0.18547500  0.06881200  1.0
+  F  F4  2  0.20262600  0.40158400  0.38910500  1.0
+  F  F5  2  0.27812000  0.57843000  0.08541400  1.0
+  F  F6  2  0.37229300  0.68041200  0.76083300  1.0
+  F  F7  2  0.43641200  0.79507600  0.49005500  1.0
+  F  F8  2  0.49360300  0.97710400  0.18863000  1.0

@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Sr4TlFe2O9
+_symmetry_space_group_name_H-M   Fmm2
+_cell_length_a   5.42238600
+_cell_length_b   30.59132200
+_cell_length_c   5.47076400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   42
+_chemical_formula_structural   Sr4TlFe2O9
+_chemical_formula_sum   'Sr16 Tl4 Fe8 O36'
+_cell_volume   907.47915126
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, z'
+  7  '-x+1/2, y+1/2, z'
+  8  'x+1/2, -y+1/2, z'
+  9  'x+1/2, y, z+1/2'
+  10  '-x+1/2, -y, z+1/2'
+  11  '-x+1/2, y, z+1/2'
+  12  'x+1/2, -y, z+1/2'
+  13  'x, y+1/2, z+1/2'
+  14  '-x, -y+1/2, z+1/2'
+  15  '-x, y+1/2, z+1/2'
+  16  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  8  0.00000000  0.08224850  0.49976350  1.0
+  Sr  Sr1  8  0.00000000  0.20528000  0.50003300  1.0
+  Tl  Tl2  4  0.00000000  0.00000000  0.97316300  1.0
+  Fe  Fe3  8  0.00000000  0.14861750  0.00012550  1.0
+  O  O4  16  0.24968650  0.14301500  0.74989250  1.0
+  O  O5  8  0.00000000  0.06873700  0.00613600  1.0
+  O  O6  8  0.00000000  0.21300950  0.00012950  1.0
+  O  O7  4  0.00000000  0.00000000  0.54449300  1.0

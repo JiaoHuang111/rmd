@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaBiF5
+_symmetry_space_group_name_H-M   C2/c
+_cell_length_a   9.85078601
+_cell_length_b   7.15943801
+_cell_length_c   8.46055474
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   115.44968259
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   15
+_chemical_formula_structural   CaBiF5
+_chemical_formula_sum   'Ca4 Bi4 F20'
+_cell_volume   538.78887350
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z+1/2'
+  4  'x, -y, z+1/2'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z+1/2'
+  8  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  4  0.00000000  0.47166700  0.25000000  1.0
+  Bi  Bi1  4  0.00000000  0.00000000  0.00000000  1.0
+  F  F2  8  0.00931400  0.31403700  0.95551200  1.0
+  F  F3  8  0.24990550  0.02191550  0.63460900  1.0
+  F  F4  4  0.00000000  0.13371500  0.25000000  1.0

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ca6Cu2Sn7
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   14.36069199
+_cell_length_b   4.57777000
+_cell_length_c   12.42500261
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   93.94528252
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Ca6Cu2Sn7
+_chemical_formula_sum   'Ca12 Cu4 Sn14'
+_cell_volume   814.88330049
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  4  0.03799500  0.50000000  0.70068200  1.0
+  Ca  Ca1  4  0.13704200  0.50000000  0.00297500  1.0
+  Ca  Ca2  4  0.19511000  0.00000000  0.29346800  1.0
+  Cu  Cu3  4  0.16970500  0.00000000  0.61118500  1.0
+  Sn  Sn4  4  0.01102000  0.00000000  0.11855100  1.0
+  Sn  Sn5  4  0.15960600  0.50000000  0.48142700  1.0
+  Sn  Sn6  4  0.18257100  0.00000000  0.82449400  1.0
+  Sn  Sn7  2  0.00000000  0.00000000  0.50000000  1.0

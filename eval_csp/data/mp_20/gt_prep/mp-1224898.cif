@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_GaAg(GeSe3)2
+_symmetry_space_group_name_H-M   Cc
+_cell_length_a   7.29835600
+_cell_length_b   12.73971799
+_cell_length_c   12.79775656
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   106.37533595
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   9
+_chemical_formula_structural   GaAg(GeSe3)2
+_chemical_formula_sum   'Ga4 Ag4 Ge8 Se24'
+_cell_volume   1141.65386814
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z+1/2'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  4  0.37377000  0.37549600  0.99949900  1.0
+  Ag  Ag1  4  0.43876050  0.29647350  0.58168200  1.0
+  Ge  Ge2  4  0.21607150  0.49885950  0.72682900  1.0
+  Ge  Ge3  4  0.49194700  0.24684900  0.27340200  1.0
+  Se  Se4  4  0.14950150  0.17317650  0.65174600  1.0
+  Se  Se5  4  0.17399500  0.31484600  0.26099200  1.0
+  Se  Se6  4  0.17737900  0.21598900  0.95626000  1.0
+  Se  Se7  4  0.21695200  0.46673700  0.54283800  1.0
+  Se  Se8  4  0.41281650  0.06515450  0.23988200  1.0
+  Se  Se9  4  0.49480650  0.42531650  0.84767000  1.0

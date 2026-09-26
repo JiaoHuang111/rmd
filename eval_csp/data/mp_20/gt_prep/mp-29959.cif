@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_TlBSe3
+_symmetry_space_group_name_H-M   Cc
+_cell_length_a   7.49987000
+_cell_length_b   12.45649400
+_cell_length_c   6.23936031
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   116.42480165
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   9
+_chemical_formula_structural   TlBSe3
+_chemical_formula_sum   'Tl4 B4 Se12'
+_cell_volume   521.99282008
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z+1/2'
+  3  'x+1/2, y+1/2, z'
+  4  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  4  0.27881300  0.16983800  0.51865000  1.0
+  B  B1  4  0.25099550  0.47749550  0.92437000  1.0
+  Se  Se2  4  0.00705000  0.06458300  0.97991600  1.0
+  Se  Se3  4  0.07903200  0.44917700  0.56492400  1.0
+  Se  Se4  4  0.36314950  0.33649550  0.11074000  1.0

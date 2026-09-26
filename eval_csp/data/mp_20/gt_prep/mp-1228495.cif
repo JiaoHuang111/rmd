@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba2NbCu2Pb2ClO8
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   15.94887300
+_cell_length_b   5.67677801
+_cell_length_c   5.66741201
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   Ba2NbCu2Pb2ClO8
+_chemical_formula_sum   'Ba4 Nb2 Cu4 Pb4 Cl2 O16'
+_cell_volume   513.11734686
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x, y+1/2, z+1/2'
+  6  '-x, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  4  0.34905100  0.00000000  0.50081600  1.0
+  Nb  Nb1  2  0.50000000  0.00000000  0.98752300  1.0
+  Cu  Cu2  4  0.22214300  0.00000000  0.99994500  1.0
+  Pb  Pb3  4  0.11903500  0.00000000  0.49989900  1.0
+  Cl  Cl4  2  0.00000000  0.00000000  0.99977000  1.0
+  O  O5  8  0.21104300  0.24977700  0.74957000  1.0
+  O  O6  4  0.37472900  0.00000000  0.99344800  1.0
+  O  O7  4  0.50000000  0.23803350  0.71660450  1.0

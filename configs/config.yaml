@@ -1,0 +1,47 @@
+# configs/config.yaml (root config)
+# Global defaults; every entry can be overridden at runtime by Hydra.
+
+defaults:
+  - _self_
+  - callbacks:
+      - default
+  - logger: null
+  - paths: default
+  - hydra: default
+  # Default experiment (override on the command line with experiment=...)
+  - experiment: dmlm/dmlm_base
+
+# Global mode. The testing pipeline branches on mode == "predict".
+mode: crystal
+
+# Default experiment name (used to build the log directory)
+name: dmlm_experiment
+
+# Training defaults
+train:
+  train: True
+  test: True
+  debug: false
+  force_restart: false
+  ckpt_path: last.ckpt
+  # Weights-only pretrained initialization, strictly distinct from a resume:
+  # only the model weights are loaded, while optimizer / scheduler / global_step
+  # all start from scratch. null (the default) trains from random init.
+  init_ckpt: null
+  seed: 42
+  lr: 1e-4
+  monitor: val/loss   # used by checkpointing / early stopping; must match the metric name logged by the task
+  mode: min
+  patience: 30
+  val_and_save_every_n_steps: null
+
+# Tokenizer / meta info (points at the CrystaLLM meta.pkl)
+tokenizer:
+  type: crystallm
+  # Place meta.pkl at this location, or override it at runtime.
+  meta_file: data-bin/crystalmols/meta.pkl
+  vocab_size: 371   # placeholder; the training pipeline overrides it from meta.pkl
+
+print_config: True
+ignore_warnings: True
+seed: 42 # seed for random number generators in pytorch, numpy and python.random

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SmGaPt
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   7.04343000
+_cell_length_b   4.47324800
+_cell_length_c   7.81161900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   SmGaPt
+_chemical_formula_sum   'Sm4 Ga4 Pt4'
+_cell_volume   246.12075139
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  4  0.01535100  0.75000000  0.30143600  1.0
+  Ga  Ga1  4  0.17165600  0.75000000  0.92653300  1.0
+  Pt  Pt2  4  0.22269900  0.25000000  0.09841100  1.0

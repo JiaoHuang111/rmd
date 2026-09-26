@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MgS2O7
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   4.96783500
+_cell_length_b   7.04535926
+_cell_length_c   8.36136969
+_cell_angle_alpha   92.50212199
+_cell_angle_beta   94.62419307
+_cell_angle_gamma   106.17934962
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   MgS2O7
+_chemical_formula_sum   'Mg2 S4 O14'
+_cell_volume   279.47489340
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  0.50000000  0.00000000  1.0
+  Mg  Mg1  1  0.50000000  0.00000000  0.50000000  1.0
+  S  S2  2  0.13088400  0.25087200  0.68851300  1.0
+  S  S3  2  0.49453800  0.35387700  0.23163000  1.0
+  O  O4  2  0.05226100  0.27100000  0.85119500  1.0
+  O  O5  2  0.10184600  0.80786500  0.43659700  1.0
+  O  O6  2  0.26696000  0.43747500  0.18286300  1.0
+  O  O7  2  0.28504900  0.47833600  0.63881300  1.0
+  O  O8  2  0.33887200  0.14207600  0.67850200  1.0
+  O  O9  2  0.34208600  0.68064000  0.89802900  1.0
+  O  O10  2  0.41116900  0.18959300  0.33245200  1.0
