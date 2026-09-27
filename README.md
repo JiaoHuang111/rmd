@@ -19,7 +19,6 @@ configs/                     Hydra configuration
 
 src/byprot/                  the library
   models/dmlm/dmlm.py            the diffusion model (forward, loss, sampling)
-  models/dplm/modules/           ESM2 backbone with the CIF embedding hook
   datamodules/crystalmols_hf.py  CrystalDataset / CrystalMolsDataModule
   crystallm/                     CIF tokenizer and CIF text utilities
   tokenizers/                    vocab wrapper over meta.pkl
