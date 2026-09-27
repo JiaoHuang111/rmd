@@ -1,13 +1,5 @@
-# DMLM — Diffusion Language Model for Crystal Structure Generation
-
-A masked-diffusion language model over CIF token sequences. The model denoises a
-sequence of CIF tokens in a fixed number of steps instead of generating it
-left-to-right, which makes it suitable both for **unconditional** crystal
-generation and for **composition-conditioned crystal structure prediction (CSP)**,
-where the composition is pinned and the structural part is denoised.
-
-The backbone is ESM2-t30 (150M) with the protein tokenizer replaced by a CIF
-tokenizer; it is trained from scratch, no pretrained protein weights are used.
+# RMD
+Official code and datasets repository of paper [RMD: Relaxation-Inspired Masked Diffusion Language Modeling for Crystal Generation]
 
 ## Repository layout
 
@@ -275,13 +267,8 @@ Apache-2.0, see `LICENSE`. The library under `src/byprot/` derives from
 and/or its affiliates); the CIF tokenizer and CIF text utilities under
 `src/byprot/crystallm/` derive from [CrystaLLM](https://github.com/lantunes/CrystaLLM).
 
-## Before publishing this repository
+## Note
 
-- `data-bin/crystalmols/train.bin` is 1.4 GB and `val.bin` is 149 MB. Both exceed
+- Some datasets exceed
   GitHub's 100 MB per-file limit, so the repository cannot be pushed to GitHub as
-  it stands. Use Git LFS, host the data separately, or drop these two files if the
-  per-dataset directories under `data-bin/crystalmols/` are sufficient.
-- The datasets are redistributed here; confirm that their upstream licenses permit
-  it. `eval_csp/data/` and `eval_csp/prompts/` contain MP-20 benchmark data from
-  CrystaLLM, and the benchmark CSVs themselves are read from a CrystaLLM checkout
-  rather than vendored.
+  it stands. 
